@@ -1950,6 +1950,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 129.54 86.36)
+		(size 31.75 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cd601179-baef-4e34-b5da-beea03762ae5")
+		(property "Sheetname" "half-bridge"
+			(at 129.54 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "half-bridge.kicad_sch"
+			(at 129.54 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motor-drive"
+				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

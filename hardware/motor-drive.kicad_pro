@@ -576,6 +576,24 @@
           "label": "LCSC",
           "name": "LCSC",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -633,6 +651,10 @@
     [
       "7c031b43-26d1-47e4-bdd2-d28a8add82c7",
       "mcu"
+    ],
+    [
+      "cd601179-baef-4e34-b5da-beea03762ae5",
+      "half-bridge"
     ]
   ],
   "text_variables": {}
