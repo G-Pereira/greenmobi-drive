@@ -17,7 +17,9 @@ jobs:
     steps:
 
     - name: Install generator dependencies
-      run: apt install -y zip
+      run: |
+        apt update
+        apt install -y zip
 
     - name: Generate Short SHA Environment Variable
       run: echo "SHORT_SHA=`echo ${GITHUB_SHA} | cut -c1-8`" >> $GITHUB_ENV
