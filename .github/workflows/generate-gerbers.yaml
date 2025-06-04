@@ -1,0 +1,85 @@
+name: Export ECAD
+on:
+  push:
+    paths:
+      - "**.kicad_sch"
+      - "**.kicad_pcb"
+  workflow_dispatch:
+  release:
+    types: [ published ]
+    
+jobs:
+  export-ecad:
+    name: Export ECAD
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad9_auto
+      
+    steps:
+
+    - name: Generate Short SHA Environment Variable
+      run: echo "SHORT_SHA=`echo ${GITHUB_SHA} | cut -c1-8`" >> $GITHUB_ENV
+
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+        
+    - name: Extract branch name
+      shell: bash
+      run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+      id: extract_branch            
+
+    - name: Update the PCBs with on default branch with git hash
+      if: github.event_name == 'release' || steps.extract_branch.outputs.branch == env.main_branch
+      run: |
+        export COMMIT=$(git rev-parse --short HEAD)
+        echo "COMMIT = ${COMMIT}"    
+        echo "ref: ${{ github.ref }}"
+        echo "default: ${{ env.default }}"
+        sed -i "s!<<hash>>!${COMMIT}!" hardware/greenmobi-drive.kicad_pcb
+
+    - name: Update the PCBs with the git hash and BETA.
+      if: steps.extract_branch.outputs.branch != env.main_branch
+      run: |
+        export COMMIT=$(git rev-parse --short HEAD)
+        echo "COMMIT = ${COMMIT}"
+        sed -i "s!<<hash>>!BETA-${COMMIT}!" hardware/greenmobi-drive.kicad_pcb
+
+    - name: Generate Export Files
+      run: |
+        cd hardware
+        rm -rf greenmobi-drive/
+        kibot -c ../.github/workflows/scripts/config.kibot.yaml -e greenmobi-drive.kicad_sch -b greenmobi-drive.kicad_pcb -d greenmobi-drive -v
+
+    - name: Zip Export Files for Release  
+      run: |
+        cd hardware
+        zip -r -j GreenMobi-Drive-${{ github.event.release.tag_name }}.zip greenmobi-drive/
+
+    - name: Upload Export Files as Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: GreenMobi-Drive.zip
+        path: hardware/greenmobi-drive/
+        if-no-files-found: error
+        retention-days: 60
+
+    - name: Upload Artifacts to Release
+      uses: softprops/action-gh-release@v1
+      if: github.event_name == 'release'
+      with:
+        files: |
+          hardware/GreenMobi-Drive-${{ github.event.release.tag_name }}.zip     
+
+    - name: Send PCB Schematic to Discord
+      uses: appleboy/discord-action@master
+      with:
+        webhook_id: ${{ secrets.WEBHOOK_ID }}
+        webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
+        message: "There is a new version of the board!"
+        file: hardware/greenmobi-drive/Schematic.pdf
+
+    - name: Send PCB Layout to Discord
+      uses: appleboy/discord-action@master
+      with:
+        webhook_id: ${{ secrets.WEBHOOK_ID }}
+        webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
+        file: hardware/greenmobi-drive/PCB.pdf
