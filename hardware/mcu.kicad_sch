@@ -4040,6 +4040,28 @@
 		)
 		(uuid "fb61f8da-a535-4dc2-8088-900486c8bf21")
 	)
+	(hierarchical_label "CAN_RX"
+		(shape input)
+		(at 187.96 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8bab1306-6da4-4b32-a054-16be298fdd65")
+	)
+	(hierarchical_label "HALL2"
+		(shape input)
+		(at 147.32 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "906a1f27-7301-4fc1-907b-4644b92f0574")
+	)
 	(hierarchical_label "USB_DN"
 		(shape bidirectional)
 		(at 187.96 90.17 0)
@@ -4051,6 +4073,17 @@
 		)
 		(uuid "9f631d4d-d6c1-4f9d-85c2-83abffd3c88b")
 	)
+	(hierarchical_label "HALL3"
+		(shape input)
+		(at 147.32 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a17124de-29c1-4a2d-8fce-e30f50e7fafa")
+	)
 	(hierarchical_label "USB_DP"
 		(shape bidirectional)
 		(at 187.96 92.71 0)
@@ -4061,6 +4094,39 @@
 			(justify left)
 		)
 		(uuid "b808d19e-0b32-4ca5-9394-0b2e9e39a327")
+	)
+	(hierarchical_label "HALL1"
+		(shape input)
+		(at 147.32 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c405d748-eb4a-4f01-84e5-5377526281f6")
+	)
+	(hierarchical_label "TEMP_MOTOR"
+		(shape input)
+		(at 147.32 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c55cd2f5-1f81-4a75-bb10-919ae9e1f71f")
+	)
+	(hierarchical_label "CAN_TX"
+		(shape output)
+		(at 187.96 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df161aaf-e299-4115-9125-b165d6e0c6e2")
 	)
 	(symbol
 		(lib_id "Device:L_Ferrite")
@@ -6451,6 +6517,7 @@
 		)
 		(pin "62"
 			(uuid "6f670afd-ec0e-4c63-93f9-a553b15362ba")
+			(alternate "CAN1_TX")
 		)
 		(pin "27"
 			(uuid "eab0c5b9-de0a-4a69-a1d1-deb8cfb51b95")
@@ -6472,6 +6539,7 @@
 		)
 		(pin "61"
 			(uuid "00e115ea-de44-4c0e-bab1-8b804fecee14")
+			(alternate "CAN1_RX")
 		)
 		(pin "29"
 			(uuid "22e42cd3-7124-4bb8-9087-85efa26445c7")
