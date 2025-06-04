@@ -16,6 +16,11 @@ jobs:
       
     steps:
 
+    - name: Install generator dependencies
+      uses: ConorMacBride/install-package@v1
+      with:
+        apt: zip
+
     - name: Generate Short SHA Environment Variable
       run: echo "SHORT_SHA=`echo ${GITHUB_SHA} | cut -c1-8`" >> $GITHUB_ENV
 
