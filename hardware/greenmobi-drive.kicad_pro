@@ -656,6 +656,18 @@
     [
       "cd601179-baef-4e34-b5da-beea03762ae5",
       "half-bridge"
+    ],
+    [
+      "caef660a-9a2f-49e8-a393-a85edb78ce64",
+      "half-bridge1"
+    ],
+    [
+      "4a5d7eb9-ddee-45d4-92b5-174bd9809dbc",
+      "half-bridge2"
+    ],
+    [
+      "facec415-9f1f-49ed-9eb2-97a97bd535f7",
+      "Regulators"
     ]
   ],
   "text_variables": {}
