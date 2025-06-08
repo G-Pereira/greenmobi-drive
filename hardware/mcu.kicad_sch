@@ -4379,6 +4379,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 127 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1d0f04bf-c2d8-4588-ac77-883a8b37523a")
 		)
@@ -4441,6 +4450,15 @@
 			)
 		)
 		(property "Description" "Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"
+			(at 78.74 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 78.74 125.73 0)
 			(effects
 				(font
@@ -4551,6 +4569,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 74.93 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7104c387-644f-4f64-aa69-1d1d6be8fb3a")
 		)
@@ -4613,6 +4640,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 72.39 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 72.39 74.93 0)
 			(effects
 				(font
@@ -4700,6 +4736,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 62.23 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fe2d5b21-4d61-4a73-88c6-37131e3906d3")
 		)
@@ -4762,6 +4807,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 198.12 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 198.12 38.1 0)
 			(effects
 				(font
@@ -4840,6 +4894,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 185.42 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9267a881-e3bd-4275-af2a-0c5b352ec6cb")
 		)
@@ -4899,6 +4962,15 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 111.76 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 111.76 83.82 0)
 			(effects
 				(font
@@ -4983,6 +5055,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 172.72 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a9bad2a-a68d-40e6-aa51-09dfb9f149a7")
 		)
@@ -5053,6 +5134,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 148.59 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5e489041-040d-4c26-a266-71a4bf0d10af")
 		)
@@ -5115,6 +5205,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 135.89 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 135.89 38.1 0)
 			(effects
 				(font
@@ -5589,6 +5688,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 100.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe839576-1cc5-4ad5-8b19-7f8edaa3553c")
 		)
@@ -5651,6 +5759,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 160.02 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 160.02 38.1 0)
 			(effects
 				(font
@@ -5729,6 +5846,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 119.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6cff8df8-fd43-4909-9010-b4a06eedc338")
 		)
@@ -5799,6 +5925,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c3c7322d-da63-4863-a30d-dd3872fd393a")
 		)
@@ -5861,6 +5996,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 137.16 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 137.16 135.89 0)
 			(effects
 				(font
@@ -6203,6 +6347,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 72.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "58bfd965-eebe-4762-84db-2ae839c466d9")
 		)
@@ -6537,6 +6690,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 210.82 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e465786a-016f-4e5e-a27e-a73707329859")
 		)
@@ -6599,6 +6761,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 125.73 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 125.73 135.89 0)
 			(effects
 				(font
@@ -6679,6 +6850,15 @@
 			)
 		)
 		(property "LCSC" "C15742"
+			(at 167.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 167.64 102.87 0)
 			(effects
 				(font
@@ -7081,6 +7261,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 62.23 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 62.23 39.37 0)
 			(effects
 				(font

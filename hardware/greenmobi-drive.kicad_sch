@@ -3933,6 +3933,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 104.14 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7bd01596-d338-4462-a5f1-c3a6be878f8e")
 		)
@@ -3995,6 +4004,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 120.65 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 120.65 54.61 0)
 			(effects
 				(font
@@ -4073,6 +4091,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 95.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f6dca82a-111c-4359-88ef-4bd51364e7be")
 		)
@@ -4135,6 +4162,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 185.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 185.42 146.05 0)
 			(effects
 				(font
@@ -4211,6 +4247,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 176.53 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 176.53 41.91 0)
 			(effects
 				(font
@@ -4488,6 +4533,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 180.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "26fe41c9-cc71-40e2-94a6-893e2c759669")
 		)
@@ -4556,6 +4610,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 74.93 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "50362a33-15d0-4877-8093-8a9b9c02edb6")
 		)
@@ -4615,6 +4678,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 86.36 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 86.36 27.94 0)
 			(effects
 				(font
@@ -5025,6 +5097,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 189.23 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a7ad3536-ee2f-4874-82ec-8f161ae96407")
 		)
@@ -5095,6 +5176,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 222.25 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3cd0db62-c87d-4cc9-b244-9e92ee61e927")
 		)
@@ -5155,6 +5245,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 74.93 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 74.93 78.74 0)
 			(effects
 				(font
@@ -5493,6 +5592,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 218.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A7"
 			(uuid "3e4275e7-6831-4d2b-a9f7-8aef6f9d4df4")
 		)
@@ -5672,6 +5780,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 92.71 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c2cabad0-7e58-41a2-b21b-1cb321d88e6d")
 		)
@@ -5735,6 +5852,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 100.33 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 100.33 161.29 0)
 			(effects
 				(font
@@ -6009,6 +6135,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 166.37 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "01db67ab-fb4a-4f68-8466-10ec844d9f3d")
 		)
@@ -6069,6 +6204,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 166.37 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 166.37 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6138,6 +6282,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 95.25 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 95.25 27.94 0)
 			(effects
 				(font
@@ -6216,6 +6369,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 241.3 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "53620097-f02c-4309-ac1d-4221bf5a5e2e")
 		)
@@ -6285,6 +6447,15 @@
 			)
 		)
 		(property "Description" "High-Speed CAN Transceiver, separate VIO, silent mode, SOIC-8"
+			(at 207.01 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 207.01 139.7 0)
 			(effects
 				(font
@@ -6439,6 +6610,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 120.65 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 120.65 38.1 0)
 			(effects
 				(font
@@ -6657,6 +6837,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "72e320a1-6b6e-4814-bff3-bd44fe38dca9")
 		)
@@ -6718,6 +6907,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 74.93 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 74.93 44.45 0)
 			(effects
 				(font
@@ -6798,6 +6996,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 166.37 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 166.37 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7014,6 +7221,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 176.53 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ab94df24-09ea-45d6-b6ce-6b5dbaba89a3")
 		)
@@ -7076,6 +7292,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 255.27 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 255.27 140.97 0)
 			(effects
 				(font
@@ -7278,6 +7503,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 86.36 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 86.36 38.1 0)
 			(effects
 				(font
