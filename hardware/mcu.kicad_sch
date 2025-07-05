@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "9330884b-2ce6-4cad-97e5-2ecc347dbe02")
 	(paper "A4")
+	(title_block
+		(title "GreenMobi Drive")
+		(date "2025-07-02")
+		(rev "0.1")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_ARM_JTAG_SWD_10"
 			(pin_names

@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "bf65a978-8979-4e13-a6d1-84a6cc66122c")
 	(paper "A4")
+	(title_block
+		(title "GreenMobi Drive")
+		(date "2025-07-02")
+		(rev "0.1")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers

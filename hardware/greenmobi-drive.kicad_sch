@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "a12b77e7-bd0f-4a70-9ba2-19a87ce48819")
 	(paper "A4")
+	(title_block
+		(title "GreenMobi Drive")
+		(date "2025-07-02")
+		(rev "0.1")
+		(company "G-Pereira")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
@@ -2969,6 +2975,12 @@
 		(uuid "28f70153-e78e-4e99-b7b0-3ff8b3cf9a22")
 	)
 	(junction
+		(at 232.41 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32605bf0-1174-4dac-be4c-86a1420323c6")
+	)
+	(junction
 		(at 86.36 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3065,12 +3077,6 @@
 		(uuid "bef91665-2817-4b7e-a0c3-bac838510ed7")
 	)
 	(junction
-		(at 232.41 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d433f8a0-368c-4cf1-9bff-017c879a9011")
-	)
-	(junction
 		(at 95.25 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3129,6 +3135,16 @@
 			(type default)
 		)
 		(uuid "01e5c4d9-ea30-4655-b970-e7504e0cacf5")
+	)
+	(wire
+		(pts
+			(xy 232.41 142.24) (xy 236.22 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02bb9405-efe3-45ea-8c40-e8ba96b13b89")
 	)
 	(wire
 		(pts
@@ -3239,6 +3255,16 @@
 			(type default)
 		)
 		(uuid "115eb305-2460-4b91-b0c9-3d4f2e7a2a20")
+	)
+	(wire
+		(pts
+			(xy 236.22 137.16) (xy 236.22 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ad0004-d8ca-424e-8b55-ad0a676280e7")
 	)
 	(wire
 		(pts
@@ -3652,16 +3678,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 138.43) (xy 236.22 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bcaf00e-7484-401a-84e4-0f6e9ab401fb")
-	)
-	(wire
-		(pts
 			(xy 113.03 78.74) (xy 133.35 78.74)
 		)
 		(stroke
@@ -3679,16 +3695,6 @@
 			(type default)
 		)
 		(uuid "8da2e9c6-5a0b-4ad4-97ab-c99b102b2340")
-	)
-	(wire
-		(pts
-			(xy 232.41 140.97) (xy 236.22 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e55ac22-2076-45ca-a355-fc17ddcd99c2")
 	)
 	(wire
 		(pts
@@ -3902,6 +3908,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 142.24) (xy 236.22 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3fe6fa5-0b0b-423d-b3f1-d2aab9a586a8")
+	)
+	(wire
+		(pts
 			(xy 115.57 186.69) (xy 115.57 180.34)
 		)
 		(stroke
@@ -4002,26 +4018,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 137.16) (xy 232.41 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb986e29-f94d-4fdb-8577-acffb410e70f")
-	)
-	(wire
-		(pts
-			(xy 232.41 140.97) (xy 232.41 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccbe7c2a-84dd-452b-be88-3ab4fdab1956")
-	)
-	(wire
-		(pts
 			(xy 194.31 90.17) (xy 194.31 97.79)
 		)
 		(stroke
@@ -4112,7 +4108,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 137.16) (xy 232.41 137.16)
+			(xy 222.25 137.16) (xy 236.22 137.16)
 		)
 		(stroke
 			(width 0)
