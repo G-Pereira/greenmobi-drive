@@ -2452,6 +2452,84 @@
 		(uuid "b3e62008-dacb-49ea-ad92-8e6fb953b4a0")
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 106.68 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05b0957e-bd40-4637-8836-d884bc4b2f6a")
+		(property "Reference" "C17"
+			(at 109.22 133.3562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 109.22 135.8962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 106.68 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 106.68 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0b8fe168-5c47-45ea-9b15-fb44b5d91f97")
+		)
+		(pin "1"
+			(uuid "184758b8-52a9-474a-92ba-93a9d55848b4")
+		)
+		(instances
+			(project ""
+				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/4a5d7eb9-ddee-45d4-92b5-174bd9809dbc"
+					(reference "C38")
+					(unit 1)
+				)
+				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/caef660a-9a2f-49e8-a393-a85edb78ce64"
+					(reference "C25")
+					(unit 1)
+				)
+				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/cd601179-baef-4e34-b5da-beea03762ae5"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 50.8 67.31 0)
 		(unit 1)
@@ -3166,7 +3244,7 @@
 				)
 			)
 		)
-		(property "Footprint" "greenmobi:R_3920"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 153.67 79.502 90)
 			(effects
 				(font
@@ -3193,7 +3271,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C558625"
+		(property "LCSC" "C4944115"
 			(at 153.67 81.28 90)
 			(effects
 				(font
@@ -3229,6 +3307,80 @@
 				)
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/cd601179-baef-4e34-b5da-beea03762ae5"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69496d28-0136-4d1e-9e80-200b087e853a")
+		(property "Reference" "#PWR066"
+			(at 106.68 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7e2fbc0-4b13-42b7-b931-addbe37327b2")
+		)
+		(instances
+			(project "greenmobi-drive"
+				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/4a5d7eb9-ddee-45d4-92b5-174bd9809dbc"
+					(reference "#PWR084")
+					(unit 1)
+				)
+				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/caef660a-9a2f-49e8-a393-a85edb78ce64"
+					(reference "#PWR083")
+					(unit 1)
+				)
+				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/cd601179-baef-4e34-b5da-beea03762ae5"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -4098,6 +4250,80 @@
 				)
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/cd601179-baef-4e34-b5da-beea03762ae5"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 106.68 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c295f032-03fe-4ee8-901e-e78879b691dc")
+		(property "Reference" "#PWR045"
+			(at 106.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 106.68 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 106.68 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1ac9894-f184-42dd-909a-691b649a31b9")
+		)
+		(instances
+			(project "greenmobi-drive"
+				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/4a5d7eb9-ddee-45d4-92b5-174bd9809dbc"
+					(reference "#PWR065")
+					(unit 1)
+				)
+				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/caef660a-9a2f-49e8-a393-a85edb78ce64"
+					(reference "#PWR046")
+					(unit 1)
+				)
+				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/cd601179-baef-4e34-b5da-beea03762ae5"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)

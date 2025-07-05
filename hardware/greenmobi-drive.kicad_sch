@@ -821,7 +821,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x04"
+		(symbol "Connector_Generic_MountingPin:Conn_01x04_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -837,12 +837,13 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
+			(property "Value" "Conn_01x04_MountingPin"
+				(at 1.27 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -863,7 +864,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -881,7 +882,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -890,7 +891,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x04_1_1"
+			(symbol "Conn_01x04_MountingPin_1_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 1.27 -6.35)
@@ -944,6 +945,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -7.112) (xy 1.016 -7.112)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -6.731 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
 					)
 				)
 				(pin passive line
@@ -1018,10 +1039,28 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x06"
+		(symbol "Connector_Generic_MountingPin:Conn_01x06_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1037,12 +1076,13 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x06"
-				(at 0 -10.16 0)
+			(property "Value" "Conn_01x06_MountingPin"
+				(at 1.27 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -1063,7 +1103,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1081,7 +1121,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1090,7 +1130,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x06_1_1"
+			(symbol "Conn_01x06_MountingPin_1_1"
 				(rectangle
 					(start -1.27 6.35)
 					(end 1.27 -8.89)
@@ -1166,6 +1206,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -9.652) (xy 1.016 -9.652)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -9.271 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
 					)
 				)
 				(pin passive line
@@ -1269,6 +1329,24 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2479,6 +2557,211 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_BJT:MMBT3904"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MMBT3904"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MMBT3904_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MMBT3904_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers
@@ -2987,12 +3270,6 @@
 		(uuid "51da6c5b-f354-4ee1-8f20-b84be1fc5cbe")
 	)
 	(junction
-		(at 187.96 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "548f95b7-7a99-48ef-935d-a2b468bd3c5e")
-	)
-	(junction
 		(at 81.28 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3063,12 +3340,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6d28019-e300-4686-a41c-cb90938df0df")
-	)
-	(junction
-		(at 187.96 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bbcac430-dbb1-4854-a265-fbba18e26010")
 	)
 	(junction
 		(at 203.2 85.09)
@@ -3178,13 +3449,13 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 34.29) (xy 187.96 41.91)
+			(xy 160.02 60.96) (xy 213.36 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07bcd3e0-7ff2-449c-b1bb-4cb82ec790ab")
+		(uuid "0683da09-d918-4577-9a67-943e9f58d3ff")
 	)
 	(wire
 		(pts
@@ -3348,16 +3619,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 46.99) (xy 187.96 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b57c219-cc74-4fe1-9b7a-d79bcfdcdfb7")
-	)
-	(wire
-		(pts
 			(xy 80.01 78.74) (xy 81.28 78.74)
 		)
 		(stroke
@@ -3388,6 +3649,26 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 39.37) (xy 245.11 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3801714f-6d2d-46a7-8881-f158674a56bb")
+	)
+	(wire
+		(pts
+			(xy 220.98 39.37) (xy 220.98 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c14cfc5-ca6d-478a-bf67-8ef88ecdeaec")
+	)
+	(wire
+		(pts
 			(xy 193.04 114.3) (xy 193.04 134.62)
 		)
 		(stroke
@@ -3395,16 +3676,6 @@
 			(type default)
 		)
 		(uuid "3efee1fe-23e7-444f-bab3-43cdb61062b5")
-	)
-	(wire
-		(pts
-			(xy 187.96 41.91) (xy 187.96 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42100f4e-653a-42bf-981b-64946caf7cff")
 	)
 	(wire
 		(pts
@@ -3438,6 +3709,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 49.53) (xy 190.5 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "519e93a8-b4d6-43a4-8d2c-1156428885a1")
+	)
+	(wire
+		(pts
 			(xy 86.36 41.91) (xy 133.35 41.91)
 		)
 		(stroke
@@ -3465,6 +3746,16 @@
 			(type default)
 		)
 		(uuid "5b7d6906-2e4d-4a7d-b254-8c66a4822275")
+	)
+	(wire
+		(pts
+			(xy 160.02 44.45) (xy 182.88 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c3509e5-02a2-4dd9-8f76-4685427995ff")
 	)
 	(wire
 		(pts
@@ -3498,26 +3789,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 34.29) (xy 187.96 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "614ee47a-4334-410b-91b8-f351776bb6ac")
-	)
-	(wire
-		(pts
-			(xy 170.18 41.91) (xy 172.72 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63232029-013a-4a5c-a655-058110db4f28")
-	)
-	(wire
-		(pts
 			(xy 222.25 142.24) (xy 232.41 142.24)
 		)
 		(stroke
@@ -3548,13 +3819,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 41.91) (xy 162.56 41.91)
+			(xy 213.36 60.96) (xy 213.36 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d158568-c9bf-46b3-b7f6-6850066b78e5")
+		(uuid "6d193900-98f4-4780-84c4-3786768d4bce")
 	)
 	(wire
 		(pts
@@ -3615,16 +3886,6 @@
 			(type default)
 		)
 		(uuid "811347f0-7b19-46df-ad01-24aa3dec4362")
-	)
-	(wire
-		(pts
-			(xy 170.18 34.29) (xy 172.72 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "813ec60f-e2f9-4ffd-982a-133f5c24ab06")
 	)
 	(wire
 		(pts
@@ -3698,16 +3959,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 33.02) (xy 158.75 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91361066-1bf3-452e-8973-8f02fe3f290a")
-	)
-	(wire
-		(pts
 			(xy 80.01 49.53) (xy 120.65 49.53)
 		)
 		(stroke
@@ -3755,26 +4006,6 @@
 			(type default)
 		)
 		(uuid "9455549c-843e-4515-a6a8-c48b8fed120f")
-	)
-	(wire
-		(pts
-			(xy 180.34 41.91) (xy 187.96 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94762fd9-bf8e-4bc0-86ed-cbb516f0c49c")
-	)
-	(wire
-		(pts
-			(xy 187.96 46.99) (xy 187.96 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9483a7bc-6e75-46c0-8b61-2016e41f5a34")
 	)
 	(wire
 		(pts
@@ -3868,6 +4099,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 27.94) (xy 190.5 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae29bff2-ef90-424d-8328-aaa7e6c70342")
+	)
+	(wire
+		(pts
 			(xy 86.36 30.48) (xy 95.25 30.48)
 		)
 		(stroke
@@ -3945,6 +4186,16 @@
 			(type default)
 		)
 		(uuid "be0760e3-d595-41c9-9ff7-cd6a2b2f4311")
+	)
+	(wire
+		(pts
+			(xy 220.98 29.21) (xy 220.98 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c25b1889-ebe7-4936-b525-d8e48215c7f3")
 	)
 	(wire
 		(pts
@@ -4028,13 +4279,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 34.29) (xy 162.56 34.29)
+			(xy 190.5 38.1) (xy 190.5 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d2cba0ba-1c9a-44b8-a0ed-1a0c4b916769")
+		(uuid "d547a597-6e3d-4fae-b1d3-7a18c6f060c3")
 	)
 	(wire
 		(pts
@@ -4068,16 +4319,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 46.99) (xy 162.56 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1ac0c3f-120d-4309-8458-e92918fda095")
-	)
-	(wire
-		(pts
 			(xy 203.2 85.09) (xy 193.04 85.09)
 		)
 		(stroke
@@ -4085,6 +4326,16 @@
 			(type default)
 		)
 		(uuid "e1db1ffb-ca6b-4adb-ab27-17528d1d4061")
+	)
+	(wire
+		(pts
+			(xy 220.98 50.8) (xy 220.98 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e21dde7b-fe19-4c11-bc68-c1f3d48c88a6")
 	)
 	(wire
 		(pts
@@ -4098,7 +4349,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 46.99) (xy 172.72 46.99)
+			(xy 245.11 29.21) (xy 245.11 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4247,6 +4498,100 @@
 		(uuid "e4866db5-cfaf-485a-ae26-d7ed9af47abc")
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 220.98 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01a411d8-104b-4c1b-9915-a8b677a786e4")
+		(property "Reference" "D7"
+			(at 216.916 34.544 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 215.392 37.084 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1210_3225Metric"
+			(at 220.98 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 220.98 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 220.98 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 220.98 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965825"
+			(at 220.98 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a83e7651-2620-423d-b5b1-b5d308a2c95f")
+		)
+		(pin "1"
+			(uuid "12899c7a-f901-4fb2-9497-bbc8e6c8c110")
+		)
+		(instances
+			(project "greenmobi-drive"
+				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Thermistor_NTC")
 		(at 67.31 120.65 0)
 		(unit 1)
@@ -4274,7 +4619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 67.31 119.38 0)
 			(effects
 				(font
@@ -4327,7 +4672,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 48.26 0)
+		(at 245.11 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4336,7 +4681,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e1bc421-7dd6-43ce-9cea-ca6cad9842e6")
 		(property "Reference" "#PWR015"
-			(at 187.96 54.61 0)
+			(at 245.11 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4345,7 +4690,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 53.34 0)
+			(at 245.11 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4353,7 +4698,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 48.26 0)
+			(at 245.11 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4362,7 +4707,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 48.26 0)
+			(at 245.11 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4371,7 +4716,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 48.26 0)
+			(at 245.11 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4452,6 +4797,72 @@
 			(project ""
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 190.5 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19845e2a-81ef-46e3-86c3-834f38520411")
+		(property "Reference" "#PWR093"
+			(at 190.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca6f1c7f-fb14-44af-910a-7b7d62051ee8")
+		)
+		(instances
+			(project "greenmobi-drive"
+				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819"
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -4564,7 +4975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 120.65 54.61 0)
 			(effects
 				(font
@@ -4774,91 +5185,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 176.53 41.91 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "32884fad-fe71-47ff-9366-a2066564deb1")
-		(property "Reference" "D2"
-			(at 173.482 43.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RED"
-			(at 180.34 43.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 176.53 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 176.53 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 176.53 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 176.53 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "304d4912-00f0-402b-bcca-61a373c8d321")
-		)
-		(pin "1"
-			(uuid "8d202ae8-1482-4c5b-8d77-295d3a609087")
-		)
-		(instances
-			(project "greenmobi-drive"
-				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 54.61 120.65 0)
 		(unit 1)
@@ -4932,6 +5258,82 @@
 			(project "greenmobi-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 190.5 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "390ab741-532b-4a47-a151-bb4bee80f7ff")
+		(property "Reference" "R35"
+			(at 186.436 23.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "68"
+			(at 186.69 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 188.722 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 190.5 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 190.5 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2598baea-c800-4a9b-ae20-70584261cc47")
+		)
+		(pin "2"
+			(uuid "61d3b62e-dc8d-40e8-a42e-10986ca431e2")
+		)
+		(instances
+			(project "greenmobi-drive"
+				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819"
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -5217,7 +5619,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 74.93 66.04 180)
+		(at 59.69 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5226,7 +5628,7 @@
 		(fields_autoplaced yes)
 		(uuid "405644d1-2872-411b-90c9-e1884ab231d0")
 		(property "Reference" "J2"
-			(at 74.93 59.69 0)
+			(at 59.69 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5234,7 +5636,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 62.23 0)
+			(at 59.69 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5242,7 +5644,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
-			(at 74.93 66.04 0)
+			(at 59.69 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5251,7 +5653,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 66.04 0)
+			(at 59.69 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5260,7 +5662,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 74.93 66.04 0)
+			(at 59.69 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5269,7 +5671,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 74.93 66.04 0)
+			(at 59.69 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5284,6 +5686,82 @@
 			(project "greenmobi-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT3904")
+		(at 218.44 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4227902d-caeb-4839-a3cc-8352e0b1dcd0")
+		(property "Reference" "Q2"
+			(at 223.52 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3904"
+			(at 223.52 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 223.52 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+			(at 218.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 218.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "98c8cc83-b284-4c93-b5eb-8c2ce5dd1ca3")
+		)
+		(pin "3"
+			(uuid "60c4d8df-165a-4ede-a8c8-86faa2bdac38")
+		)
+		(pin "1"
+			(uuid "2932fd47-75fb-48a0-8f02-83a719f08cc4")
+		)
+		(instances
+			(project "greenmobi-drive"
+				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -5317,7 +5795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 86.36 27.94 0)
 			(effects
 				(font
@@ -5568,72 +6046,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 158.75 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "522f353c-5f24-4800-9c07-11ac6f10499d")
-		(property "Reference" "#PWR011"
-			(at 158.75 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 158.75 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 158.75 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d16e7ab9-fc30-4d63-9c12-b1ce5ff284ae")
-		)
-		(instances
-			(project ""
-				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 255.27 138.43 0)
 		(unit 1)
@@ -5798,7 +6210,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "120"
 			(at 224.79 140.9699 0)
 			(effects
 				(font
@@ -5807,7 +6219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 222.25 139.7 0)
 			(effects
 				(font
@@ -6321,6 +6733,72 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
+		(at 190.5 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72d7dd25-7667-401d-959d-4f4bbae3c901")
+		(property "Reference" "#PWR095"
+			(at 190.5 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 190.5 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 190.5 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdaae5e2-085b-49d2-a5da-38f2adb93485")
+		)
+		(instances
+			(project "greenmobi-drive"
+				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
 		(at 120.65 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6380,6 +6858,214 @@
 			(project "motor-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 220.98 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78ebc28b-b9bc-4dcc-884d-4fc554a52c16")
+		(property "Reference" "R17"
+			(at 216.916 24.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15"
+			(at 217.17 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 219.202 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 220.98 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 220.98 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88838cc1-ee82-4f21-b268-ebe8bbfd8d50")
+		)
+		(pin "2"
+			(uuid "14c15002-fbba-4e09-910c-d1d212ef1475")
+		)
+		(instances
+			(project "greenmobi-drive"
+				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 220.98 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ad666bc-de9d-4d61-af26-0bf4cd355f59")
+		(property "Reference" "#PWR094"
+			(at 220.98 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 220.98 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 220.98 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac439cc1-0471-4c5c-9c73-d9cc800aa377")
+		)
+		(instances
+			(project "greenmobi-drive"
+				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 245.11 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7edbb306-8155-4705-9fc5-187eedcb11a8")
+		(property "Reference" "#PWR011"
+			(at 245.11 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 245.11 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 245.11 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e622d414-dea1-4fe6-bdcb-066f0f0f344e")
+		)
+		(instances
+			(project "greenmobi-drive"
+				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6477,7 +7163,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 92.71 156.718 90)
 			(effects
 				(font
@@ -6557,7 +7243,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 98.552 161.29 90)
 			(effects
 				(font
@@ -6603,6 +7289,138 @@
 			(project "greenmobi-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fce307a-dce6-44dd-98cd-b6990024f064")
+		(property "Reference" "#PWR091"
+			(at 74.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba7e2479-3eba-4b38-9bf8-54a402e2ae80")
+		)
+		(instances
+			(project ""
+				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 241.3 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2e1d45e-4ba2-4179-9619-bfdf13cdb4ce")
+		(property "Reference" "#PWR090"
+			(at 241.3 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.3 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c76c2f4e-ae37-4a4c-9d58-5d6d4c72a406")
+		)
+		(instances
+			(project "greenmobi-drive"
+				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819"
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -6808,24 +7626,26 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 166.37 41.91 90)
+		(lib_id "power:GND")
+		(at 220.98 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "aa77e74a-9ef0-4000-8400-321b2f9a418d")
-		(property "Reference" "R10"
-			(at 163.576 39.624 90)
+		(fields_autoplaced yes)
+		(uuid "acaf40d0-e765-46b2-b75d-087b9d779fbb")
+		(property "Reference" "#PWR092"
+			(at 220.98 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "220"
-			(at 168.148 39.624 90)
+		(property "Value" "GND"
+			(at 220.98 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6833,7 +7653,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 43.688 90)
+			(at 220.98 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6841,8 +7661,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 166.37 41.91 0)
+		(property "Datasheet" ""
+			(at 220.98 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6850,17 +7670,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 166.37 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 166.37 41.91 90)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6869,91 +7680,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "01db67ab-fb4a-4f68-8466-10ec844d9f3d")
-		)
-		(pin "2"
-			(uuid "5b8e3d58-7aca-4625-b71d-d5d2bdedd6a2")
-		)
-		(instances
-			(project ""
-				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 166.37 34.29 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "af40d56d-282b-4ad0-9703-355238541792")
-		(property "Reference" "R9"
-			(at 163.576 32.004 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 168.148 32.004 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 36.068 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 166.37 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 166.37 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a8bf5995-d6de-46b7-81d3-c4c5e91fad54")
-		)
-		(pin "2"
-			(uuid "9a1182ca-039a-4f01-8b3f-8f0ed5877969")
+			(uuid "84c51151-a4ac-4008-bf43-99b4d70fa8ce")
 		)
 		(instances
 			(project "greenmobi-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819"
-					(reference "R9")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -6987,7 +7719,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 95.25 27.94 0)
 			(effects
 				(font
@@ -7039,7 +7771,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
+		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
 		(at 241.3 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7049,7 +7781,7 @@
 		(fields_autoplaced yes)
 		(uuid "b11c372f-9626-4ac6-84da-2969f5df33c7")
 		(property "Reference" "J5"
-			(at 243.84 138.4299 0)
+			(at 243.84 138.7855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7058,7 +7790,7 @@
 			)
 		)
 		(property "Value" "CAN"
-			(at 243.84 140.9699 0)
+			(at 243.84 141.3255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7084,7 +7816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 241.3 138.43 0)
 			(effects
 				(font
@@ -7114,10 +7846,89 @@
 		(pin "4"
 			(uuid "c3f2f382-6bf5-4496-94b1-a899673409b1")
 		)
+		(pin "MP"
+			(uuid "f2eaa8bb-3aa1-4876-9c48-5e5e64f2f29a")
+		)
 		(instances
 			(project ""
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT3904")
+		(at 187.96 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2a8a9c6-0b4a-42eb-bb78-39ccf135fcff")
+		(property "Reference" "Q3"
+			(at 193.04 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3904"
+			(at 193.04 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 193.04 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+			(at 187.96 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 187.96 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f6ecd043-eb6c-4ad2-ae9c-2e76bf8bd37d")
+		)
+		(pin "3"
+			(uuid "df877847-2f38-4f3c-8a93-f0aab1bf30f4")
+		)
+		(pin "1"
+			(uuid "6d1dd044-af93-4730-be27-b77757e2de07")
+		)
+		(instances
+			(project "greenmobi-drive"
+				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -7223,7 +8034,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 66.04 0)
+		(at 64.77 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7232,7 +8043,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc42d525-1b56-4942-a1d6-2c864f497961")
 		(property "Reference" "#PWR02"
-			(at 80.01 72.39 0)
+			(at 64.77 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7241,7 +8052,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 71.12 0)
+			(at 64.77 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7249,7 +8060,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 66.04 0)
+			(at 64.77 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7258,7 +8069,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 66.04 0)
+			(at 64.77 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7267,7 +8078,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 66.04 0)
+			(at 64.77 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7315,7 +8126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 120.65 38.1 0)
 			(effects
 				(font
@@ -7501,91 +8312,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 176.53 34.29 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d1912d9c-50e5-4d08-9b1c-9f6db45895a8")
-		(property "Reference" "D1"
-			(at 173.482 36.322 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "YELLOW"
-			(at 181.864 35.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 176.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 176.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 176.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 176.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "72e320a1-6b6e-4814-bff3-bd44fe38dca9")
-		)
-		(pin "1"
-			(uuid "db26b9de-3ce8-422a-b142-eddffe308ce5")
-		)
-		(instances
-			(project "greenmobi-drive"
-				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 67.31 110.49 0)
 		(unit 1)
@@ -7665,7 +8391,101 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
+		(lib_id "Device:LED")
+		(at 190.5 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6b09ec5-6972-437c-a288-fdcb050589ca")
+		(property "Reference" "D8"
+			(at 186.436 33.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Red"
+			(at 186.182 35.814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1210_3225Metric"
+			(at 190.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 190.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 190.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 190.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965822"
+			(at 190.5 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f3007d6d-fabd-4ad8-94bb-3fb2099c6792")
+		)
+		(pin "1"
+			(uuid "103339ad-e664-4eb3-b6d7-357991ae0c7a")
+		)
+		(instances
+			(project "greenmobi-drive"
+				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x06_MountingPin")
 		(at 74.93 44.45 0)
 		(mirror y)
 		(unit 1)
@@ -7709,7 +8529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 74.93 44.45 0)
 			(effects
 				(font
@@ -7745,6 +8565,9 @@
 		(pin "4"
 			(uuid "12dc5901-ddf3-4b2e-a98f-dbcb162ac88f")
 		)
+		(pin "MP"
+			(uuid "9ea2c7f8-1c6f-481e-bca2-dc9ac8829a5e")
+		)
 		(instances
 			(project ""
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819"
@@ -7756,7 +8579,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 166.37 46.99 90)
+		(at 245.11 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7764,23 +8587,23 @@
 		(dnp no)
 		(uuid "d983b417-ae6d-49b9-b96e-663dbbe10665")
 		(property "Reference" "R11"
-			(at 163.576 44.958 90)
+			(at 241.046 24.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "220"
-			(at 168.148 44.958 90)
+		(property "Value" "68"
+			(at 241.3 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 166.37 48.768 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 243.332 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7789,7 +8612,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 46.99 0)
+			(at 245.11 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7798,7 +8621,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 166.37 46.99 0)
+			(at 245.11 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7807,7 +8630,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 166.37 46.99 90)
+			(at 245.11 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7965,7 +8788,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 176.53 46.99 180)
+		(at 245.11 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7973,23 +8796,23 @@
 		(dnp no)
 		(uuid "e642f9ad-f446-48b9-9c4e-4bdadc0a59c2")
 		(property "Reference" "D3"
-			(at 173.482 49.022 0)
+			(at 241.046 34.544 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "GREEN"
-			(at 181.61 48.768 0)
+		(property "Value" "Yellow"
+			(at 239.522 37.084 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 176.53 46.99 0)
+		(property "Footprint" "LED_SMD:LED_1210_3225Metric"
+			(at 245.11 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7998,7 +8821,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 46.99 0)
+			(at 245.11 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8007,7 +8830,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 176.53 46.99 0)
+			(at 245.11 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8016,7 +8839,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 176.53 46.99 0)
+			(at 245.11 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8025,7 +8848,16 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 176.53 46.99 0)
+			(at 245.11 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965826"
+			(at 245.11 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8751,7 +9583,7 @@
 			)
 		)
 		(pin "LED_GREEN" output
-			(at 160.02 46.99 0)
+			(at 160.02 60.96 0)
 			(uuid "536c2668-0f28-4100-94d5-09d61bfd3699")
 			(effects
 				(font
@@ -8761,7 +9593,7 @@
 			)
 		)
 		(pin "LED_RED" output
-			(at 160.02 41.91 0)
+			(at 160.02 44.45 0)
 			(uuid "5978d10e-e1c2-4891-bd66-5aa855bd223e")
 			(effects
 				(font
