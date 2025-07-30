@@ -4196,17 +4196,6 @@
 		)
 		(uuid "1fb83790-3d5c-4db8-8997-0ce9a9ff9cc0")
 	)
-	(hierarchical_label "T2"
-		(shape input)
-		(at 187.96 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "28ddb0dd-b62b-4395-91f3-8fbb59fae94f")
-	)
 	(hierarchical_label "V1"
 		(shape input)
 		(at 187.96 62.23 0)
@@ -4217,17 +4206,6 @@
 			(justify left)
 		)
 		(uuid "344f55a9-ecc4-4f45-a656-1dbbd48e579f")
-	)
-	(hierarchical_label "T1"
-		(shape input)
-		(at 187.96 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "37502ef9-6adb-42cd-981f-6d7932b1bd79")
 	)
 	(hierarchical_label "L3"
 		(shape output)
@@ -4250,17 +4228,6 @@
 			(justify left)
 		)
 		(uuid "51221991-ea5d-467d-97b8-8c9448483b30")
-	)
-	(hierarchical_label "T3"
-		(shape input)
-		(at 187.96 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5e7cd4f2-cf2f-48bd-b14e-f567a5e47fe0")
 	)
 	(hierarchical_label "LED_RED"
 		(shape output)
@@ -4341,7 +4308,7 @@
 	)
 	(hierarchical_label "HALL3"
 		(shape input)
-		(at 147.32 105.41 180)
+		(at 147.32 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4374,7 +4341,7 @@
 	)
 	(hierarchical_label "HALL1"
 		(shape input)
-		(at 147.32 100.33 180)
+		(at 147.32 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4613,73 +4580,6 @@
 			(project ""
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 251.46 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "04028dc2-7cbb-4c4e-9566-2586608d4132")
-		(property "Reference" "H5"
-			(at 254 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Heatsink"
-			(at 254 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 251.46 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 251.46 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "663fbc6b-f97c-4ce0-b848-75f0940e6068")
-		)
-		(instances
-			(project "greenmobi-drive"
-				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -5683,7 +5583,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 243.84 149.86 0)
+		(at 243.84 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5692,7 +5592,7 @@
 		(fields_autoplaced yes)
 		(uuid "48119111-e896-4fb5-a2ed-9cb3e3e9e965")
 		(property "Reference" "H3"
-			(at 246.38 147.3199 0)
+			(at 246.38 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5701,7 +5601,7 @@
 			)
 		)
 		(property "Value" "Heatsink"
-			(at 246.38 149.8599 0)
+			(at 246.38 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5710,7 +5610,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 243.84 149.86 0)
+			(at 243.84 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5719,7 +5619,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.84 149.86 0)
+			(at 243.84 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5728,7 +5628,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 243.84 149.86 0)
+			(at 243.84 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5809,72 +5709,6 @@
 			(project "motor-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 251.46 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ed3a18a-d1e9-4da6-96d7-09751b390292")
-		(property "Reference" "#PWR089"
-			(at 251.46 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 251.46 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "932509b2-16af-494a-a8f7-55a23991b07b")
-		)
-		(instances
-			(project "greenmobi-drive"
-				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -7017,7 +6851,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 243.84 152.4 0)
+		(at 243.84 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7026,7 +6860,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce3a99bd-761c-41e0-8ae9-d3b7c1702127")
 		(property "Reference" "#PWR087"
-			(at 243.84 158.75 0)
+			(at 243.84 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7035,7 +6869,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 243.84 157.48 0)
+			(at 243.84 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7043,7 +6877,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 152.4 0)
+			(at 243.84 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7052,7 +6886,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 152.4 0)
+			(at 243.84 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7061,7 +6895,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 243.84 152.4 0)
+			(at 243.84 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7516,7 +7350,6 @@
 		)
 		(pin "46"
 			(uuid "b91363ca-9f27-4caf-9d06-1eae4ca132fd")
-			(alternate "SYS_JTMS-SWDIO")
 		)
 		(pin "18"
 			(uuid "1e769b4e-fd54-402d-8f1c-3b0459ecd767")
@@ -7532,18 +7365,15 @@
 		)
 		(pin "55"
 			(uuid "1fd00365-3247-4785-87fc-07331ee6e07f")
-			(alternate "SYS_JTDO-SWO")
 		)
 		(pin "28"
 			(uuid "26cba784-47b4-407a-93d1-e0d160370b54")
 		)
 		(pin "62"
 			(uuid "6f670afd-ec0e-4c63-93f9-a553b15362ba")
-			(alternate "CAN1_TX")
 		)
 		(pin "27"
 			(uuid "eab0c5b9-de0a-4a69-a1d1-deb8cfb51b95")
-			(alternate "ADC1_IN9")
 		)
 		(pin "64"
 			(uuid "38472e76-48df-4828-ab13-1f56acec05b2")
@@ -7562,18 +7392,15 @@
 		)
 		(pin "61"
 			(uuid "00e115ea-de44-4c0e-bab1-8b804fecee14")
-			(alternate "CAN1_RX")
 		)
 		(pin "29"
 			(uuid "22e42cd3-7124-4bb8-9087-85efa26445c7")
 		)
 		(pin "16"
 			(uuid "c89fb3a2-b0bc-4522-838c-1d5f243d6055")
-			(alternate "ADC1_IN2")
 		)
 		(pin "45"
 			(uuid "24c00704-7f9e-43b6-8337-e592383b43f4")
-			(alternate "USB_OTG_FS_DP")
 		)
 		(pin "53"
 			(uuid "bb80555b-ae48-4f62-96fd-8d0e09da1f34")
@@ -7592,7 +7419,6 @@
 		)
 		(pin "17"
 			(uuid "bc5da84f-b523-4e1e-ad73-7c44ce10c792")
-			(alternate "ADC1_IN3")
 		)
 		(pin "3"
 			(uuid "9806cf29-4e3b-41be-a985-9b3d274239e5")
@@ -7602,7 +7428,6 @@
 		)
 		(pin "15"
 			(uuid "c0bdf4bc-3553-4e69-9759-328dd3b840ad")
-			(alternate "ADC1_IN1")
 		)
 		(pin "5"
 			(uuid "9c216c76-2496-4fac-9a3d-20a338a013d8")
@@ -7639,7 +7464,6 @@
 		)
 		(pin "14"
 			(uuid "1c98e6c5-9abe-4db7-ae1a-9aa4fd3a58f7")
-			(alternate "ADC1_IN0")
 		)
 		(pin "43"
 			(uuid "a50a4d80-e9c8-422e-97fd-5569275c767d")
@@ -7655,14 +7479,12 @@
 		)
 		(pin "44"
 			(uuid "d8d027c0-0a87-4564-8f2f-56198aeb066c")
-			(alternate "USB_OTG_FS_DM")
 		)
 		(pin "32"
 			(uuid "3197dec5-2595-4993-9660-ee0336260310")
 		)
 		(pin "50"
 			(uuid "2f844c78-f92d-47c0-856f-f773b23083ec")
-			(alternate "SYS_JTDI")
 		)
 		(pin "35"
 			(uuid "0bbcc8b7-2793-46dc-8138-d93a63142693")
@@ -7672,7 +7494,6 @@
 		)
 		(pin "26"
 			(uuid "61b633fb-88d3-48ab-a7af-78e1562f1e42")
-			(alternate "ADC1_IN8")
 		)
 		(pin "51"
 			(uuid "994cc389-3f58-4ffe-aaa1-7ac70e8f8751")
@@ -7706,7 +7527,6 @@
 		)
 		(pin "49"
 			(uuid "060ac9a3-9669-4b69-a5c2-eeef4ac0b24c")
-			(alternate "SYS_JTCK-SWCLK")
 		)
 		(pin "24"
 			(uuid "fbe9dc84-7e15-48d9-9804-62e6f5caf85a")
@@ -7860,7 +7680,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 257.81 149.86 0)
+		(at 257.81 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7869,7 +7689,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec75f892-183c-4e5b-9b36-6bfa843d78b5")
 		(property "Reference" "H4"
-			(at 260.35 147.3199 0)
+			(at 260.35 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7878,7 +7698,7 @@
 			)
 		)
 		(property "Value" "Heatsink"
-			(at 260.35 149.8599 0)
+			(at 260.35 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7887,7 +7707,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 257.81 149.86 0)
+			(at 257.81 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7896,7 +7716,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 149.86 0)
+			(at 257.81 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7905,7 +7725,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 257.81 149.86 0)
+			(at 257.81 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8006,7 +7826,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 152.4 0)
+		(at 257.81 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8015,7 +7835,7 @@
 		(fields_autoplaced yes)
 		(uuid "f11ba840-9ad5-4a0d-81c7-a459fdb5df23")
 		(property "Reference" "#PWR088"
-			(at 257.81 158.75 0)
+			(at 257.81 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8024,7 +7844,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 157.48 0)
+			(at 257.81 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8032,7 +7852,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 152.4 0)
+			(at 257.81 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8041,7 +7861,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 152.4 0)
+			(at 257.81 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8050,7 +7870,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 152.4 0)
+			(at 257.81 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
