@@ -4682,7 +4682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "151af7c6-8825-42f0-b859-deff9c82879e")
-		(property "Reference" "C5"
+		(property "Reference" "C8"
 			(at 76.2 73.6599 0)
 			(effects
 				(font
@@ -4745,7 +4745,7 @@
 		(instances
 			(project "motor-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "C5")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -4849,7 +4849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1dfbcd64-1eef-4685-9b24-9b3702528154")
-		(property "Reference" "C15"
+		(property "Reference" "C18"
 			(at 201.93 36.8299 0)
 			(effects
 				(font
@@ -4912,7 +4912,7 @@
 		(instances
 			(project "motor-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "C15")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -4928,7 +4928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21060539-f425-4903-81c5-57e8a15d6196")
-		(property "Reference" "C14"
+		(property "Reference" "C17"
 			(at 189.23 36.8299 0)
 			(effects
 				(font
@@ -4991,7 +4991,7 @@
 		(instances
 			(project "motor-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "C14")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -5089,7 +5089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29fc84ca-9646-4302-81e7-c9b5a591ff29")
-		(property "Reference" "C13"
+		(property "Reference" "C16"
 			(at 176.53 36.8299 0)
 			(effects
 				(font
@@ -5152,7 +5152,7 @@
 		(instances
 			(project "motor-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "C13")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -5168,7 +5168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cc07547-d7ea-42a3-9eff-74c9b8bb4f3a")
-		(property "Reference" "C11"
+		(property "Reference" "C14"
 			(at 152.4 36.8299 0)
 			(effects
 				(font
@@ -5231,7 +5231,7 @@
 		(instances
 			(project "motor-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "C11")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -5247,7 +5247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30575798-1649-4e03-bcac-085cd6cf26d5")
-		(property "Reference" "C9"
+		(property "Reference" "C12"
 			(at 139.7 36.8299 0)
 			(effects
 				(font
@@ -5310,7 +5310,7 @@
 		(instances
 			(project ""
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "C9")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -5326,7 +5326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cf5d7ef-e4ea-427c-b37f-3ef6f259d85d")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR042"
 			(at 78.74 114.3 0)
 			(effects
 				(font
@@ -5376,7 +5376,7 @@
 		(instances
 			(project "motor-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "#PWR031")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -5392,7 +5392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d74327c-2262-4de2-8627-55281b507126")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR049"
 			(at 148.59 48.26 0)
 			(effects
 				(font
@@ -5442,7 +5442,7 @@
 		(instances
 			(project ""
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "#PWR038")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -5458,7 +5458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3dfa4087-d547-4e77-9141-39c784aa146c")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR040"
 			(at 72.39 93.98 0)
 			(effects
 				(font
@@ -5508,7 +5508,7 @@
 		(instances
 			(project "motor-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "#PWR029")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -5524,7 +5524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43d174bd-4745-412d-b4ab-58fe18f134f2")
-		(property "Reference" "H2"
+		(property "Reference" "H1"
 			(at 246.38 121.9199 0)
 			(effects
 				(font
@@ -5575,7 +5575,7 @@
 		(instances
 			(project "greenmobi-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "H2")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -5591,7 +5591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48119111-e896-4fb5-a2ed-9cb3e3e9e965")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 246.38 135.8899 0)
 			(effects
 				(font
@@ -5642,7 +5642,7 @@
 		(instances
 			(project "greenmobi-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -5658,7 +5658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48496ce0-54b2-4931-b764-9f002aa1add1")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR041"
 			(at 74.93 60.96 0)
 			(effects
 				(font
@@ -5708,7 +5708,7 @@
 		(instances
 			(project "motor-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "#PWR030")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -5724,7 +5724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56967acd-5bda-42b0-b53a-b97038515ebe")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR047"
 			(at 119.38 95.25 0)
 			(effects
 				(font
@@ -5774,7 +5774,7 @@
 		(instances
 			(project "motor-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "#PWR036")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -5790,7 +5790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a02965c-3437-470d-b7f2-77e355510cdd")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR054"
 			(at 243.84 133.35 0)
 			(effects
 				(font
@@ -5840,7 +5840,7 @@
 		(instances
 			(project "greenmobi-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "#PWR086")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -5856,7 +5856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6704cf65-ae4b-4cec-99f9-de5aabd3a07c")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR052"
 			(at 168.91 158.75 0)
 			(effects
 				(font
@@ -5906,7 +5906,7 @@
 		(instances
 			(project "motor-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "#PWR041")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -5922,7 +5922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "687725cf-b6d4-4859-ae7f-a7043dd21019")
-		(property "Reference" "C6"
+		(property "Reference" "C9"
 			(at 102.87 85.0962 0)
 			(effects
 				(font
@@ -5985,7 +5985,7 @@
 		(instances
 			(project "motor-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "C6")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6001,7 +6001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d9ff101-cb0e-423d-9dae-6de1ecfb6505")
-		(property "Reference" "C12"
+		(property "Reference" "C15"
 			(at 163.83 36.8299 0)
 			(effects
 				(font
@@ -6064,7 +6064,7 @@
 		(instances
 			(project "motor-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "C12")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -6080,7 +6080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7424d5de-9d58-46da-9c96-040ea1610e45")
-		(property "Reference" "C7"
+		(property "Reference" "C10"
 			(at 121.92 85.0962 0)
 			(effects
 				(font
@@ -6143,7 +6143,7 @@
 		(instances
 			(project ""
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "C7")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6159,7 +6159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74ce6cdf-97d4-4a6b-8b62-c36e1aa1f16b")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR056"
 			(at 257.81 133.35 0)
 			(effects
 				(font
@@ -6209,7 +6209,7 @@
 		(instances
 			(project "greenmobi-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "#PWR085")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -6225,7 +6225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77791445-604d-4430-bfc9-4b535fb1dc28")
-		(property "Reference" "C4"
+		(property "Reference" "C7"
 			(at 66.04 46.9899 0)
 			(effects
 				(font
@@ -6288,7 +6288,7 @@
 		(instances
 			(project "motor-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "C4")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6304,7 +6304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c7b2865-bf28-43e0-859f-03a2158a63ab")
-		(property "Reference" "C10"
+		(property "Reference" "C13"
 			(at 140.97 134.6199 0)
 			(effects
 				(font
@@ -6367,7 +6367,7 @@
 		(instances
 			(project "motor-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "C10")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -6383,7 +6383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "835a1185-9531-4d5c-83ae-6bfed4657df3")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR045"
 			(at 111.76 95.25 0)
 			(effects
 				(font
@@ -6433,7 +6433,7 @@
 		(instances
 			(project "motor-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "#PWR034")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -6449,7 +6449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89c99a1b-c499-49e7-8da7-851552b254ed")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR048"
 			(at 132.08 147.32 0)
 			(effects
 				(font
@@ -6499,7 +6499,7 @@
 		(instances
 			(project ""
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "#PWR037")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -6515,7 +6515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89f5df74-beb8-40c3-a0e6-1588f8b14936")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR044"
 			(at 100.33 95.25 0)
 			(effects
 				(font
@@ -6565,7 +6565,7 @@
 		(instances
 			(project ""
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "#PWR033")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -6581,7 +6581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d550fe2-6f8b-4f17-bfd6-6f28ef249db7")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR046"
 			(at 116.84 38.1 0)
 			(effects
 				(font
@@ -6631,7 +6631,7 @@
 		(instances
 			(project "motor-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "#PWR035")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -6647,7 +6647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "908e29cc-c580-4764-88b9-25046f369f41")
-		(property "Reference" "H1"
+		(property "Reference" "H3"
 			(at 260.35 121.9199 0)
 			(effects
 				(font
@@ -6698,7 +6698,7 @@
 		(instances
 			(project "greenmobi-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "H1")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -6714,7 +6714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "980c5b24-68ea-408e-b489-06e2c0b84da9")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 74.93 82.5499 0)
 			(effects
 				(font
@@ -6777,7 +6777,7 @@
 		(instances
 			(project "motor-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -6793,7 +6793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a68aec1f-b24c-4522-b0a9-fb0070976e4b")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR043"
 			(at 78.74 147.32 0)
 			(effects
 				(font
@@ -6843,7 +6843,7 @@
 		(instances
 			(project ""
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "#PWR032")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -6859,7 +6859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce3a99bd-761c-41e0-8ae9-d3b7c1702127")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR055"
 			(at 243.84 147.32 0)
 			(effects
 				(font
@@ -6909,7 +6909,7 @@
 		(instances
 			(project "greenmobi-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "#PWR087")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -6925,7 +6925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfcaabaf-490b-4f83-918d-364da7a9ce41")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR038"
 			(at 62.23 60.96 0)
 			(effects
 				(font
@@ -6975,7 +6975,7 @@
 		(instances
 			(project "motor-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "#PWR027")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -6991,7 +6991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d35a527b-b4d6-4235-afa9-c45ba4ec5a16")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR051"
 			(at 167.64 55.88 0)
 			(effects
 				(font
@@ -7041,7 +7041,7 @@
 		(instances
 			(project ""
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "#PWR040")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -7057,7 +7057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d70b8e55-71c1-4355-95a7-c9878eb498e3")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR037"
 			(at 62.23 39.37 0)
 			(effects
 				(font
@@ -7107,7 +7107,7 @@
 		(instances
 			(project "motor-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "#PWR026")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -7123,7 +7123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd4fcf1f-e72f-41ab-8073-c0984ac75309")
-		(property "Reference" "C16"
+		(property "Reference" "C19"
 			(at 214.63 36.8299 0)
 			(effects
 				(font
@@ -7186,7 +7186,7 @@
 		(instances
 			(project "motor-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "C16")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -7202,7 +7202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df1b56dd-60a7-451b-903a-59fd56f1487c")
-		(property "Reference" "C8"
+		(property "Reference" "C11"
 			(at 129.54 134.6199 0)
 			(effects
 				(font
@@ -7265,7 +7265,7 @@
 		(instances
 			(project "motor-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "C8")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -7281,7 +7281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e58c1cac-2e44-4168-9908-752dcc8e9011")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 172.3233 151.13 0)
 			(effects
 				(font
@@ -7540,7 +7540,7 @@
 		(instances
 			(project "motor-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -7556,7 +7556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6fd183d-23b0-4def-a87a-bd832706b809")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR050"
 			(at 160.02 38.1 0)
 			(effects
 				(font
@@ -7606,7 +7606,7 @@
 		(instances
 			(project "motor-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "#PWR039")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -7622,7 +7622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb603955-5d41-49ce-b1a5-222374ed854c")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR053"
 			(at 185.42 48.26 0)
 			(effects
 				(font
@@ -7672,7 +7672,7 @@
 		(instances
 			(project "motor-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "#PWR042")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -7755,7 +7755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee2e8c51-da4c-458e-bd93-18e2a22c6578")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 64.77 38.0999 0)
 			(effects
 				(font
@@ -7818,7 +7818,7 @@
 		(instances
 			(project ""
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -7834,7 +7834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f11ba840-9ad5-4a0d-81c7-a459fdb5df23")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR057"
 			(at 257.81 147.32 0)
 			(effects
 				(font
@@ -7884,7 +7884,7 @@
 		(instances
 			(project "greenmobi-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "#PWR088")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -7900,7 +7900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fac4a38e-fb68-4d85-86c0-7b48b0fc3274")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR039"
 			(at 62.23 73.66 0)
 			(effects
 				(font
@@ -7950,7 +7950,7 @@
 		(instances
 			(project "motor-drive"
 				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7"
-					(reference "#PWR028")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
