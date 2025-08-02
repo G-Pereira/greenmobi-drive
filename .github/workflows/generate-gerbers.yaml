@@ -72,7 +72,7 @@ jobs:
       if: github.event_name == 'release'
       with:
         files: |
-          hardware/GreenMobi-Drive-${{ github.event.release.tag_name }}.zip     
+          hardware/greenmobi-drive/GreenMobi-Drive-${{ github.event.release.tag_name }}.zip     
 
     - name: Send PCB Schematic to Discord
       uses: appleboy/discord-action@master
