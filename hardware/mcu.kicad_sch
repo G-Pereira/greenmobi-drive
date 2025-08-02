@@ -4022,16 +4022,6 @@
 		)
 		(uuid "f93ced69-328f-4153-a334-2fda9420bbcd")
 	)
-	(label "TDI"
-		(at 187.96 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0201fbf9-aa5f-42cc-b5c4-9116e6c018c2")
-	)
 	(label "SWO"
 		(at 91.44 128.27 0)
 		(effects
@@ -4174,6 +4164,17 @@
 		)
 		(uuid "132ca9ce-8b36-429b-967d-2f66f3cb929d")
 	)
+	(hierarchical_label "SCL"
+		(shape output)
+		(at 187.96 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "14e8667d-e780-4981-971d-fd1bf4bc8d18")
+	)
 	(hierarchical_label "I1"
 		(shape input)
 		(at 147.32 85.09 180)
@@ -4229,9 +4230,20 @@
 		)
 		(uuid "51221991-ea5d-467d-97b8-8c9448483b30")
 	)
+	(hierarchical_label "MOS_TEMP"
+		(shape input)
+		(at 187.96 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59781b4c-9c8b-4066-968c-3ce35df26720")
+	)
 	(hierarchical_label "LED_RED"
 		(shape output)
-		(at 187.96 123.19 0)
+		(at 187.96 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4262,9 +4274,20 @@
 		)
 		(uuid "906a1f27-7301-4fc1-907b-4644b92f0574")
 	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 187.96 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "90d65fb4-a0e0-4162-b940-435131cb6496")
+	)
 	(hierarchical_label "LED_GREEN"
 		(shape output)
-		(at 187.96 118.11 0)
+		(at 187.96 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7350,6 +7373,7 @@
 		)
 		(pin "46"
 			(uuid "b91363ca-9f27-4caf-9d06-1eae4ca132fd")
+			(alternate "SYS_JTMS-SWDIO")
 		)
 		(pin "18"
 			(uuid "1e769b4e-fd54-402d-8f1c-3b0459ecd767")
@@ -7527,6 +7551,7 @@
 		)
 		(pin "49"
 			(uuid "060ac9a3-9669-4b69-a5c2-eeef4ac0b24c")
+			(alternate "SYS_JTCK-SWCLK")
 		)
 		(pin "24"
 			(uuid "fbe9dc84-7e15-48d9-9804-62e6f5caf85a")
