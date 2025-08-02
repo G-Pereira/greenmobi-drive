@@ -2868,6 +2868,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C77020"
+			(at 121.92 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0b8fe168-5c47-45ea-9b15-fb44b5d91f97")
 		)
@@ -3017,15 +3026,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
-			(at 99.06 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "f2428b03-32a8-412e-b841-fe337f41783b")
 		)
@@ -3094,15 +3094,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 142.24 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 142.24 81.28 0)
 			(effects
 				(font
@@ -3186,15 +3177,6 @@
 			)
 		)
 		(property "LCSC" "C5297508"
-			(at 180.34 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 180.34 90.17 0)
 			(effects
 				(font
@@ -3358,7 +3340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C77020"
 			(at 153.67 115.57 90)
 			(effects
 				(font
@@ -3437,15 +3419,6 @@
 			)
 		)
 		(property "Description" "High and Low Side Driver, 600V, 4.0/4.0A, SOIC-8"
-			(at 68.58 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 68.58 77.47 0)
 			(effects
 				(font
@@ -3550,15 +3523,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
-			(at 160.02 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "bb8ee031-09d1-4675-82d7-cd48bcc4850b")
 		)
@@ -3636,15 +3600,6 @@
 			)
 		)
 		(property "LCSC" "C4944115"
-			(at 153.67 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 153.67 81.28 90)
 			(effects
 				(font
@@ -3805,7 +3760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C28322"
 			(at 80.01 77.47 0)
 			(effects
 				(font
@@ -3892,7 +3847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C28322"
 			(at 50.8 63.5 0)
 			(effects
 				(font
@@ -3989,15 +3944,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
-			(at 127 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "3"
 			(uuid "77de43b1-ae7a-4a50-a857-35e01a124ba5")
 		)
@@ -4084,15 +4030,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 170.18 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 170.18 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4252,7 +4189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C381466"
 			(at 190.5 80.01 0)
 			(effects
 				(font
@@ -4339,7 +4276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C381466"
 			(at 199.39 80.01 0)
 			(effects
 				(font
@@ -4418,15 +4355,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 147.32 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 147.32 102.87 0)
 			(effects
 				(font
@@ -4587,15 +4515,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
-			(at 92.71 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "2c568dcb-6b6f-49a5-9ae7-648fa78d3fda")
 		)
@@ -4738,15 +4657,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 170.18 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 170.18 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4972,15 +4882,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 99.06 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 99.06 99.06 0)
 			(effects
 				(font
@@ -5215,15 +5116,6 @@
 			)
 		)
 		(property "LCSC" "C5297508"
-			(at 180.34 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 180.34 73.66 0)
 			(effects
 				(font

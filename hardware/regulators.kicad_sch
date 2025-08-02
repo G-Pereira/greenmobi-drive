@@ -2430,32 +2430,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 161.29 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 161.29 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 161.29 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C476766"
 			(at 161.29 135.89 0)
 			(effects
 				(font
@@ -2534,7 +2509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C77020"
 			(at 92.71 130.81 0)
 			(effects
 				(font
@@ -2610,23 +2585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 166.37 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 166.37 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C107088"
 			(at 166.37 81.28 90)
 			(effects
 				(font
@@ -2704,31 +2663,6 @@
 			)
 		)
 		(property "LCSC" "C2894721"
-			(at 162.56 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 162.56 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 162.56 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 162.56 73.66 90)
 			(effects
 				(font
@@ -3170,31 +3104,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 133.35 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 133.35 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 133.35 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "4be4b98e-b102-4752-8e05-ca1b5f5328fb")
 		)
@@ -3429,7 +3338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C6186"
 			(at 200.66 129.54 0)
 			(effects
 				(font
@@ -3577,6 +3486,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1779"
+			(at 83.82 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "20bd1fd7-f2f1-4c2e-8f39-2ebbf9eae251")
 		)
@@ -3713,32 +3631,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 189.23 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 189.23 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 189.23 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C1779"
 			(at 189.23 85.09 0)
 			(effects
 				(font
@@ -3883,32 +3776,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 207.01 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 207.01 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 207.01 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C1779"
 			(at 207.01 85.09 0)
 			(effects
 				(font
@@ -3987,23 +3855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 184.15 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 184.15 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C28322"
 			(at 184.15 133.35 0)
 			(effects
 				(font
@@ -4082,23 +3934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 212.09 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 212.09 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C28322"
 			(at 212.09 133.35 0)
 			(effects
 				(font
@@ -4177,23 +4013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 148.59 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 148.59 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C106861"
 			(at 148.59 71.12 0)
 			(effects
 				(font
@@ -4413,31 +4233,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 179.07 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 179.07 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 179.07 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c4967de1-a994-423a-8eb2-0e7788286b81")
 		)
@@ -4565,6 +4360,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 132.08 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C77020"
+			(at 132.08 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4712,23 +4516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 162.56 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 162.56 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C1676"
 			(at 162.56 86.36 0)
 			(effects
 				(font
@@ -4873,31 +4661,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 113.03 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 113.03 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 113.03 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "46b594b2-c8e6-4ed6-804e-768082b3ff48")
 		)
@@ -5032,31 +4795,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 158.75 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 158.75 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 158.75 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e7663d20-0517-41d8-9b42-4703c5ad2744")
 		)
@@ -5117,15 +4855,6 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 179.07 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 179.07 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,23 +4932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 101.6 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 101.6 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C110255"
 			(at 101.6 80.01 0)
 			(effects
 				(font
@@ -5496,32 +5209,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 198.12 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 198.12 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 198.12 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C1779"
 			(at 198.12 85.09 0)
 			(effects
 				(font
@@ -5600,32 +5288,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 152.4 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 152.4 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 152.4 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C476766"
 			(at 152.4 135.89 0)
 			(effects
 				(font

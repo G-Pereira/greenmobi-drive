@@ -4481,15 +4481,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
-			(at 127 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "1d0f04bf-c2d8-4588-ac77-883a8b37523a")
 		)
@@ -4552,15 +4543,6 @@
 			)
 		)
 		(property "Description" "Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"
-			(at 78.74 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 78.74 125.73 0)
 			(effects
 				(font
@@ -4671,15 +4653,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
-			(at 74.93 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "7104c387-644f-4f64-aa69-1d1d6be8fb3a")
 		)
@@ -4750,7 +4723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C77020"
 			(at 72.39 74.93 0)
 			(effects
 				(font
@@ -4838,15 +4811,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
-			(at 62.23 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "fe2d5b21-4d61-4a73-88c6-37131e3906d3")
 		)
@@ -4917,7 +4881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C77020"
 			(at 198.12 38.1 0)
 			(effects
 				(font
@@ -4996,7 +4960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C77020"
 			(at 185.42 38.1 0)
 			(effects
 				(font
@@ -5064,15 +5028,6 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4"
-			(at 111.76 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 111.76 83.82 0)
 			(effects
 				(font
@@ -5157,7 +5112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C77020"
 			(at 172.72 38.1 0)
 			(effects
 				(font
@@ -5236,7 +5191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C14445"
 			(at 148.59 38.1 0)
 			(effects
 				(font
@@ -5315,7 +5270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C77020"
 			(at 135.89 38.1 0)
 			(effects
 				(font
@@ -5990,7 +5945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C526994"
 			(at 100.33 86.36 0)
 			(effects
 				(font
@@ -6069,7 +6024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C23733"
 			(at 160.02 38.1 0)
 			(effects
 				(font
@@ -6148,7 +6103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C526994"
 			(at 119.38 86.36 0)
 			(effects
 				(font
@@ -6293,7 +6248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C77020"
 			(at 62.23 48.26 0)
 			(effects
 				(font
@@ -6372,7 +6327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C170151"
 			(at 137.16 135.89 0)
 			(effects
 				(font
@@ -6782,15 +6737,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
-			(at 72.39 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "58bfd965-eebe-4762-84db-2ae839c466d9")
 		)
@@ -7191,7 +7137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C77020"
 			(at 210.82 38.1 0)
 			(effects
 				(font
@@ -7270,7 +7216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "LCSC" "C170151"
 			(at 125.73 135.89 0)
 			(effects
 				(font
@@ -7351,15 +7297,6 @@
 			)
 		)
 		(property "LCSC" "C15742"
-			(at 167.64 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 167.64 102.87 0)
 			(effects
 				(font
@@ -7817,15 +7754,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 62.23 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 62.23 39.37 0)
 			(effects
 				(font
