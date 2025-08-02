@@ -5017,6 +5017,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C77131"
+			(at 200.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ec098b5-0486-4cc4-8fd3-12838397b1a2")
 		)
@@ -5079,6 +5088,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 208.28 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2909336"
 			(at 208.28 30.48 0)
 			(effects
 				(font
@@ -5355,6 +5373,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C114762"
+			(at 120.65 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7bd01596-d338-4462-a5f1-c3a6be878f8e")
 		)
@@ -5416,6 +5443,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 182.88 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2909336"
+			(at 182.88 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5490,7 +5526,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C688883"
 			(at 190.5 39.37 90)
 			(effects
 				(font
@@ -5755,6 +5791,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 111.76 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114762"
 			(at 111.76 33.02 0)
 			(effects
 				(font
@@ -6253,6 +6298,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2909336"
+			(at 182.88 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e44dfaab-35a3-4e9b-9090-5a837cef6a5b")
 		)
@@ -6390,6 +6444,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25905"
+			(at 195.58 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "26fe41c9-cc71-40e2-94a6-893e2c759669")
 		)
@@ -6516,6 +6579,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 102.87 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C106231"
 			(at 102.87 22.86 0)
 			(effects
 				(font
@@ -6860,6 +6932,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25905"
+			(at 204.47 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a7ad3536-ee2f-4874-82ec-8f161ae96407")
 		)
@@ -6922,6 +7003,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 238.76 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25079"
 			(at 238.76 139.7 0)
 			(effects
 				(font
@@ -7471,6 +7561,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17700380"
+			(at 91.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e3d2943c-fc7c-4ead-a7d1-375f9df34b71")
 		)
@@ -7535,6 +7634,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 233.68 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2765186"
 			(at 233.68 95.25 0)
 			(effects
 				(font
@@ -7919,6 +8027,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17756"
+			(at 109.22 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c2cabad0-7e58-41a2-b21b-1cb321d88e6d")
 		)
@@ -7982,6 +8099,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 116.84 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114762"
 			(at 116.84 161.29 0)
 			(effects
 				(font
@@ -8535,6 +8661,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C106231"
+			(at 111.76 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "acbbc842-23e6-49c7-bd9e-6116702d1d2a")
 		)
@@ -8597,6 +8732,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 257.81 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17700382"
 			(at 257.81 138.43 0)
 			(effects
 				(font
@@ -8677,6 +8821,15 @@
 			)
 		)
 		(property "Description" "High-Speed CAN Transceiver, separate VIO, silent mode, SOIC-8"
+			(at 223.52 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C38695"
 			(at 223.52 139.7 0)
 			(effects
 				(font
@@ -8831,6 +8984,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 127 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
 			(at 127 55.88 0)
 			(effects
 				(font
@@ -9043,6 +9205,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25905"
+			(at 200.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3380652e-55aa-4dc2-a2ee-530a6618428d")
 		)
@@ -9110,7 +9281,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C688884"
 			(at 190.5 27.94 90)
 			(effects
 				(font
@@ -9179,6 +9350,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 91.44 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17700383"
 			(at 91.44 39.37 0)
 			(effects
 				(font
@@ -9399,7 +9579,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C779459"
 			(at 208.28 38.1 90)
 			(effects
 				(font
@@ -9813,6 +9993,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 102.87 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114762"
 			(at 102.87 33.02 0)
 			(effects
 				(font

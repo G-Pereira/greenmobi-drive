@@ -4446,7 +4446,7 @@
 				)
 			)
 		)
-		(property "Value" "L_Ferrite"
+		(property "Value" "1k@100MHz"
 			(at 127 30.48 90)
 			(effects
 				(font
@@ -4474,6 +4474,15 @@
 		)
 		(property "Description" "Inductor with ferrite core"
 			(at 127 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C76883"
+			(at 127 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4543,6 +4552,15 @@
 			)
 		)
 		(property "Description" "Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"
+			(at 78.74 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C150517"
 			(at 78.74 125.73 0)
 			(effects
 				(font
@@ -5028,6 +5046,15 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 111.76 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C400090"
 			(at 111.76 83.82 0)
 			(effects
 				(font
@@ -6737,6 +6764,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25905"
+			(at 72.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "58bfd965-eebe-4762-84db-2ae839c466d9")
 		)
@@ -7754,6 +7790,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 62.23 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
 			(at 62.23 39.37 0)
 			(effects
 				(font
