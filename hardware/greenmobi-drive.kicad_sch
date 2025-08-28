@@ -4164,7 +4164,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 38.1) (xy 27.94 38.1)
+			(xy 17.78 38.1) (xy 27.94 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4844,7 +4844,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 38.1) (xy 19.05 40.64)
+			(xy 17.78 38.1) (xy 17.78 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4902,7 +4902,7 @@
 		)
 		(uuid "150a638d-0239-42cc-9f83-67aa19deda6b")
 	)
-	(label "SDA"
+	(label "IMU_SDA"
 		(at 27.94 40.64 180)
 		(effects
 			(font
@@ -4912,7 +4912,7 @@
 		)
 		(uuid "3e06bfb7-2a4b-4719-8e08-84c6a2d18d43")
 	)
-	(label "SCL"
+	(label "IMU_SCL"
 		(at 149.86 50.8 180)
 		(effects
 			(font
@@ -4932,7 +4932,7 @@
 		)
 		(uuid "7b728985-6596-449c-8bf9-497aaf51c7b5")
 	)
-	(label "SDA"
+	(label "IMU_SDA"
 		(at 149.86 48.26 180)
 		(effects
 			(font
@@ -4942,7 +4942,7 @@
 		)
 		(uuid "90f180e8-2a79-4bfc-b7e5-ffb82b62d7e4")
 	)
-	(label "SCL"
+	(label "IMU_SCL"
 		(at 27.94 43.18 180)
 		(effects
 			(font
@@ -5983,7 +5983,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 19.05 40.64 0)
+		(at 17.78 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5992,7 +5992,7 @@
 		(fields_autoplaced yes)
 		(uuid "3afd1efc-ee31-4c89-90af-a58e3fd78720")
 		(property "Reference" "#PWR01"
-			(at 19.05 46.99 0)
+			(at 17.78 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6001,7 +6001,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 19.05 45.72 0)
+			(at 17.78 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6009,7 +6009,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 40.64 0)
+			(at 17.78 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6018,7 +6018,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 40.64 0)
+			(at 17.78 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6027,7 +6027,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 19.05 40.64 0)
+			(at 17.78 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10391,9 +10391,9 @@
 				(justify right)
 			)
 		)
-		(pin "SCL" output
+		(pin "IMU_SCL" output
 			(at 149.86 50.8 180)
-			(uuid "22be483b-83fe-4d46-8a0e-bd1cdf11ec9c")
+			(uuid "52212c44-eb3a-48ee-bec6-c0f5d2a0204e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10401,9 +10401,9 @@
 				(justify left)
 			)
 		)
-		(pin "SDA" bidirectional
+		(pin "IMU_SDA" bidirectional
 			(at 149.86 48.26 180)
-			(uuid "6a5f49c6-431c-4d83-868d-8a70a114a739")
+			(uuid "1d65f85d-40c8-4f3d-ab0c-41a3e55201e3")
 			(effects
 				(font
 					(size 1.27 1.27)
