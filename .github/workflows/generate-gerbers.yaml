@@ -13,8 +13,6 @@ jobs:
     name: Export ECAD
     runs-on: ubuntu-latest
     container: ghcr.io/inti-cmnb/kicad9_auto
-    permissions:
-    contents: write
       
     steps:
 
