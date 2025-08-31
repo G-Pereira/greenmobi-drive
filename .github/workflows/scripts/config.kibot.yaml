@@ -45,6 +45,10 @@ outputs:
     type: ibom
     dir: ibom
 
+  - name: "report"
+    comment: 'Design report'
+    type: report
+
   - name: 'bom'
     comment: 'Bill of Materials'
     type: bom
