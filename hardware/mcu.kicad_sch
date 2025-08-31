@@ -3599,6 +3599,90 @@
 		(color 0 0 0 0)
 		(uuid "f994d460-ad97-4a43-b8a4-d4054ecf702a")
 	)
+	(no_connect
+		(at 187.96 115.57)
+		(uuid "033c7216-f6b3-4200-8d42-3d0357fb21cc")
+	)
+	(no_connect
+		(at 147.32 120.65)
+		(uuid "039cc197-e0b5-4993-94c9-3af9b97268ef")
+	)
+	(no_connect
+		(at 187.96 135.89)
+		(uuid "083bc738-0463-42a0-8a34-c37fbc08c648")
+	)
+	(no_connect
+		(at 147.32 118.11)
+		(uuid "08aef736-7add-44f5-83d6-442377c5c414")
+	)
+	(no_connect
+		(at 187.96 120.65)
+		(uuid "099de596-b5dd-4066-b809-83d4c3500b4c")
+	)
+	(no_connect
+		(at 187.96 123.19)
+		(uuid "17ec6cd4-1388-47d0-98e6-d1659371ea4e")
+	)
+	(no_connect
+		(at 147.32 80.01)
+		(uuid "1d6d0f28-c9e1-4caf-b789-1cfa26963f94")
+	)
+	(no_connect
+		(at 187.96 118.11)
+		(uuid "23ff8180-4e80-47b7-ba3b-58eb9038bbae")
+	)
+	(no_connect
+		(at 187.96 133.35)
+		(uuid "3bace0bc-9c95-41cd-8f66-55f05528e292")
+	)
+	(no_connect
+		(at 187.96 72.39)
+		(uuid "500ba849-302e-4eac-b127-4350d2f5a9af")
+	)
+	(no_connect
+		(at 187.96 107.95)
+		(uuid "55165125-75af-4011-b8bf-0786a8052a65")
+	)
+	(no_connect
+		(at 187.96 105.41)
+		(uuid "59074718-e642-4bde-b1ed-4a0ea6fc9605")
+	)
+	(no_connect
+		(at 147.32 115.57)
+		(uuid "7ddc5758-acc9-451a-8515-430e950a746a")
+	)
+	(no_connect
+		(at 91.44 130.81)
+		(uuid "85fbd8f4-81e5-42cd-b163-4cbce2b47f83")
+	)
+	(no_connect
+		(at 187.96 80.01)
+		(uuid "94008484-e30d-4c82-b43a-0fb91c0a71d3")
+	)
+	(no_connect
+		(at 147.32 113.03)
+		(uuid "a41d21cd-9fb0-46fa-9833-2d66604d1dda")
+	)
+	(no_connect
+		(at 187.96 130.81)
+		(uuid "a815357d-3a38-4cca-a49c-d56bc9a2a3a6")
+	)
+	(no_connect
+		(at 147.32 97.79)
+		(uuid "b08872d4-6850-4d82-aa0d-b6191ba4133f")
+	)
+	(no_connect
+		(at 147.32 110.49)
+		(uuid "ccebabd4-b287-4801-b70e-2d07210ec305")
+	)
+	(no_connect
+		(at 147.32 107.95)
+		(uuid "ecfa11a8-a86c-45cf-acc1-8eee59d59aee")
+	)
+	(no_connect
+		(at 147.32 123.19)
+		(uuid "ee3f8ecd-ca33-45eb-ad5d-ef70c39f7e2b")
+	)
 	(wire
 		(pts
 			(xy 147.32 74.93) (xy 119.38 74.93)
@@ -4238,16 +4322,6 @@
 			(justify left bottom)
 		)
 		(uuid "1bd1a4e9-37f7-4101-b338-047df408258f")
-	)
-	(label "TDI"
-		(at 91.44 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "360f6f73-c0c2-4ef2-9f0c-e152041aea77")
 	)
 	(label "VDDA"
 		(at 148.59 34.29 180)
