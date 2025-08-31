@@ -6493,7 +6493,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
 			(at 69.85 78.74 0)
 			(effects
 				(font
@@ -7205,7 +7205,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
 			(at 91.44 78.74 0)
 			(effects
 				(font
