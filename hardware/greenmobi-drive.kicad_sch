@@ -6671,7 +6671,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_4x8mm"
 			(at 54.61 88.9 0)
 			(effects
 				(font
@@ -7383,7 +7383,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_4x8mm"
 			(at 54.61 78.74 0)
 			(effects
 				(font

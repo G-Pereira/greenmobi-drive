@@ -3501,7 +3501,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_4x8mm"
 			(at 180.34 78.74 0)
 			(effects
 				(font
@@ -4024,7 +4024,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 121.92 129.54 0)
 			(effects
 				(font
@@ -5207,7 +5207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 114.3 135.89 0)
 			(effects
 				(font
