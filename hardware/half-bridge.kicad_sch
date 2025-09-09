@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "GreenMobi Drive")
-		(date "2025-07-02")
-		(rev "0.1")
+		(date "2025-09-09")
+		(rev "1.0")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Current:INA240A2D"
@@ -2420,6 +2420,12 @@
 		(uuid "47378e4c-78b6-4d2c-8511-2339b508e26b")
 	)
 	(junction
+		(at 106.68 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c80d836-d7cb-4433-b015-68d2d811a8fe")
+	)
+	(junction
 		(at 147.32 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2480,12 +2486,6 @@
 		(uuid "de164d0c-1168-4f75-b9a9-07a415e933cf")
 	)
 	(junction
-		(at 106.68 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "effe98bb-ba40-4942-a531-c9f5e1cd1706")
-	)
-	(junction
 		(at 114.3 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2526,6 +2526,16 @@
 			(type default)
 		)
 		(uuid "0ba96b3c-ebdd-48ae-a465-ba90c45078ca")
+	)
+	(wire
+		(pts
+			(xy 106.68 82.55) (xy 106.68 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1094cc56-8094-4169-99c0-18cd954ceb91")
 	)
 	(wire
 		(pts
@@ -2646,16 +2656,6 @@
 			(type default)
 		)
 		(uuid "3fdafefe-7c58-4b7b-972e-3728c245d269")
-	)
-	(wire
-		(pts
-			(xy 106.68 83.82) (xy 106.68 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4782c6c9-c200-4772-aab5-0a07aa847bf4")
 	)
 	(wire
 		(pts
@@ -2789,16 +2789,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 71.12) (xy 130.81 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d119910-de5a-4c83-99cc-afc1afe06e24")
-	)
-	(wire
-		(pts
 			(xy 168.91 78.74) (xy 168.91 106.68)
 		)
 		(stroke
@@ -2866,6 +2856,16 @@
 			(type default)
 		)
 		(uuid "91f81d69-c0cd-40a9-92d4-26dbff1e10f9")
+	)
+	(wire
+		(pts
+			(xy 109.22 73.66) (xy 109.22 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bccad1f-f463-469d-bc5b-413f063cfd67")
 	)
 	(wire
 		(pts
@@ -3029,6 +3029,36 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 73.66) (xy 109.22 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c933a191-314d-46e0-9a4f-cdb7fa74e31a")
+	)
+	(wire
+		(pts
+			(xy 109.22 71.12) (xy 130.81 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caeb81d1-9bca-40ab-bc3c-cd50ead60d35")
+	)
+	(wire
+		(pts
+			(xy 106.68 71.12) (xy 106.68 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbceb6c3-c8c7-4bb9-b8dd-e1d31b626ec9")
+	)
+	(wire
+		(pts
 			(xy 147.32 59.69) (xy 189.23 59.69)
 		)
 		(stroke
@@ -3176,16 +3206,6 @@
 			(type default)
 		)
 		(uuid "fa2807f1-9e20-4dbe-bf09-cc75008b3864")
-	)
-	(wire
-		(pts
-			(xy 106.68 73.66) (xy 106.68 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa494a2d-94d2-4a0f-a01f-61a27dbb61f4")
 	)
 	(wire
 		(pts
@@ -4323,7 +4343,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 106.68 77.47 0)
+		(at 106.68 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4332,7 +4352,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ab278a1-01f9-42ed-90e3-37a2ffd8139d")
 		(property "Reference" "C302"
-			(at 110.49 76.1999 0)
+			(at 110.49 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4341,7 +4361,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 110.49 78.7399 0)
+			(at 110.49 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4350,7 +4370,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 107.6452 81.28 0)
+			(at 107.6452 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4359,7 +4379,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 77.47 0)
+			(at 106.68 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4368,7 +4388,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 106.68 77.47 0)
+			(at 106.68 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4377,7 +4397,7 @@
 			)
 		)
 		(property "LCSC" "C28322"
-			(at 106.68 77.47 0)
+			(at 106.68 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)

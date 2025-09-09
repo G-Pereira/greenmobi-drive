@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "GreenMobi Drive")
-		(date "2025-07-02")
-		(rev "0.1")
+		(date "2025-09-09")
+		(rev "1.0")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_ARM_JTAG_SWD_10"
@@ -3636,10 +3636,6 @@
 		(uuid "3bace0bc-9c95-41cd-8f66-55f05528e292")
 	)
 	(no_connect
-		(at 187.96 72.39)
-		(uuid "500ba849-302e-4eac-b127-4350d2f5a9af")
-	)
-	(no_connect
 		(at 187.96 107.95)
 		(uuid "55165125-75af-4011-b8bf-0786a8052a65")
 	)
@@ -3654,10 +3650,6 @@
 	(no_connect
 		(at 91.44 130.81)
 		(uuid "85fbd8f4-81e5-42cd-b163-4cbce2b47f83")
-	)
-	(no_connect
-		(at 187.96 80.01)
-		(uuid "94008484-e30d-4c82-b43a-0fb91c0a71d3")
 	)
 	(no_connect
 		(at 147.32 113.03)
@@ -4655,6 +4647,17 @@
 		)
 		(uuid "c55cd2f5-1f81-4a75-bb10-919ae9e1f71f")
 	)
+	(hierarchical_label "EXT_ANALOG_2"
+		(shape input)
+		(at 187.96 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c865d706-054a-46cd-8e7b-803975cb15ba")
+	)
 	(hierarchical_label "CAN_TX"
 		(shape output)
 		(at 187.96 128.27 0)
@@ -4665,6 +4668,17 @@
 			(justify left)
 		)
 		(uuid "df161aaf-e299-4115-9125-b165d6e0c6e2")
+	)
+	(hierarchical_label "EXT_ANALOG_1"
+		(shape input)
+		(at 187.96 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3685149-3b84-47d2-8f5e-d512509ad9eb")
 	)
 	(hierarchical_label "I3"
 		(shape input)
@@ -7923,12 +7937,14 @@
 		)
 		(pin "55"
 			(uuid "1fd00365-3247-4785-87fc-07331ee6e07f")
+			(alternate "SYS_JTDO-SWO")
 		)
 		(pin "28"
 			(uuid "26cba784-47b4-407a-93d1-e0d160370b54")
 		)
 		(pin "62"
 			(uuid "6f670afd-ec0e-4c63-93f9-a553b15362ba")
+			(alternate "CAN1_TX")
 		)
 		(pin "27"
 			(uuid "eab0c5b9-de0a-4a69-a1d1-deb8cfb51b95")
@@ -7941,24 +7957,29 @@
 		)
 		(pin "10"
 			(uuid "e07b40df-2c34-4e99-8dd8-f71f5bf68db4")
+			(alternate "ADC1_IN12")
 		)
 		(pin "20"
 			(uuid "6cdd076a-8147-4c25-b445-7e382e6bead5")
+			(alternate "ADC1_IN4")
 		)
 		(pin "13"
 			(uuid "a6d53da1-c1e0-4a25-98ff-5c95394feee4")
 		)
 		(pin "61"
 			(uuid "00e115ea-de44-4c0e-bab1-8b804fecee14")
+			(alternate "CAN1_RX")
 		)
 		(pin "29"
 			(uuid "22e42cd3-7124-4bb8-9087-85efa26445c7")
 		)
 		(pin "16"
 			(uuid "c89fb3a2-b0bc-4522-838c-1d5f243d6055")
+			(alternate "ADC1_IN2")
 		)
 		(pin "45"
 			(uuid "24c00704-7f9e-43b6-8337-e592383b43f4")
+			(alternate "USB_OTG_FS_DP")
 		)
 		(pin "53"
 			(uuid "bb80555b-ae48-4f62-96fd-8d0e09da1f34")
@@ -7977,15 +7998,18 @@
 		)
 		(pin "17"
 			(uuid "bc5da84f-b523-4e1e-ad73-7c44ce10c792")
+			(alternate "ADC1_IN3")
 		)
 		(pin "3"
 			(uuid "9806cf29-4e3b-41be-a985-9b3d274239e5")
 		)
 		(pin "23"
 			(uuid "fe317f44-765c-4733-884f-888d69c8ab39")
+			(alternate "ADC1_IN7")
 		)
 		(pin "15"
 			(uuid "c0bdf4bc-3553-4e69-9759-328dd3b840ad")
+			(alternate "ADC1_IN1")
 		)
 		(pin "5"
 			(uuid "9c216c76-2496-4fac-9a3d-20a338a013d8")
@@ -8022,6 +8046,7 @@
 		)
 		(pin "14"
 			(uuid "1c98e6c5-9abe-4db7-ae1a-9aa4fd3a58f7")
+			(alternate "ADC1_IN0")
 		)
 		(pin "43"
 			(uuid "a50a4d80-e9c8-422e-97fd-5569275c767d")
@@ -8037,6 +8062,7 @@
 		)
 		(pin "44"
 			(uuid "d8d027c0-0a87-4564-8f2f-56198aeb066c")
+			(alternate "USB_OTG_FS_DM")
 		)
 		(pin "32"
 			(uuid "3197dec5-2595-4993-9660-ee0336260310")
@@ -8064,12 +8090,14 @@
 		)
 		(pin "8"
 			(uuid "f4bf8cc2-0442-4f96-9cb3-522b26b5255c")
+			(alternate "ADC1_IN10")
 		)
 		(pin "37"
 			(uuid "974f287a-251e-4353-802b-7bdbd812efb7")
 		)
 		(pin "9"
 			(uuid "c80dc7a8-09a5-413c-855a-956926912bab")
+			(alternate "ADC1_IN11")
 		)
 		(pin "4"
 			(uuid "71b679d0-9d07-4097-a140-0362a6d15bc7")
@@ -8089,6 +8117,7 @@
 		)
 		(pin "24"
 			(uuid "fbe9dc84-7e15-48d9-9804-62e6f5caf85a")
+			(alternate "ADC1_IN14")
 		)
 		(pin "52"
 			(uuid "d8a0ab16-7528-4012-9c38-ddffe61d4862")
