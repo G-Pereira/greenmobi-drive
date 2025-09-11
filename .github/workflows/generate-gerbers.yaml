@@ -52,7 +52,7 @@ jobs:
       run: |
         cd hardware
         rm -rf greenmobi-drive/
-        kibot -c ../.github/workflows/scripts/config.kibot.yaml -e greenmobi-drive.kicad_sch -b greenmobi-drive.kicad_pcb -d greenmobi-drive -v
+        kibot -c ../.github/workflows/scripts/config.kibot.yaml -e greenmobi-drive.kicad_sch -b greenmobi-drive.kicad_pcb -d greenmobi-drive
 
     - name: Zip Export Files for Release  
       run: |
