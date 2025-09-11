@@ -3923,6 +3923,16 @@
 		(uuid "431961d8-cbb8-4645-b246-f211242df3a1")
 	)
 	(label "RESET"
+		(at 140.97 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "74b5e2ef-720b-4f36-aded-66394616aa57")
+	)
+	(label "RESET"
 		(at 85.09 116.84 0)
 		(effects
 			(font
