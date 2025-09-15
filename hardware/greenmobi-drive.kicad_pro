@@ -242,40 +242,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "power_pin_not_driven|1028700|203200|77b5b3a7-12cb-44c1-ac87-da65f25cb4a7|00000000-0000-0000-0000-000000000000|/a12b77e7-bd0f-4a70-9ba2-19a87ce48819|/a12b77e7-bd0f-4a70-9ba2-19a87ce48819|",
-        "Driven by regulator after coil"
-      ],
-      [
-        "power_pin_not_driven|1193800|1803400|42c4b14e-381b-4762-8db6-9dbe46dd6118|00000000-0000-0000-0000-000000000000|/a12b77e7-bd0f-4a70-9ba2-19a87ce48819|/a12b77e7-bd0f-4a70-9ba2-19a87ce48819|",
-        "Driven by regulator after coil"
-      ],
-      [
-        "power_pin_not_driven|1206500|685800|4be4b98e-b102-4752-8e05-ca1b5f5328fb|00000000-0000-0000-0000-000000000000|/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/facec415-9f1f-49ed-9eb2-97a97bd535f7|/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/facec415-9f1f-49ed-9eb2-97a97bd535f7|",
-        "Driven by external connector"
-      ],
-      [
-        "power_pin_not_driven|1384300|1219200|166a60e4-b705-4cc9-8d8d-12f9d707ecfd|00000000-0000-0000-0000-000000000000|/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/4a5d7eb9-ddee-45d4-92b5-174bd9809dbc|/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/4a5d7eb9-ddee-45d4-92b5-174bd9809dbc|",
-        "Driven by ferrite"
-      ],
-      [
-        "power_pin_not_driven|1384300|1219200|166a60e4-b705-4cc9-8d8d-12f9d707ecfd|00000000-0000-0000-0000-000000000000|/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/caef660a-9a2f-49e8-a393-a85edb78ce64|/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/caef660a-9a2f-49e8-a393-a85edb78ce64|",
-        "Driven by ferrite"
-      ],
-      [
-        "power_pin_not_driven|1384300|1219200|166a60e4-b705-4cc9-8d8d-12f9d707ecfd|00000000-0000-0000-0000-000000000000|/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/cd601179-baef-4e34-b5da-beea03762ae5|/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/cd601179-baef-4e34-b5da-beea03762ae5|",
-        "Driven by ferrite"
-      ],
-      [
-        "power_pin_not_driven|1689100|533400|a6d53da1-c1e0-4a25-98ff-5c95394feee4|00000000-0000-0000-0000-000000000000|/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7|/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/7c031b43-26d1-47e4-bdd2-d28a8add82c7|",
-        "Driven by ferrite"
-      ],
-      [
-        "power_pin_not_driven|177800|406400|65df5786-7804-4ddf-bd4a-034a989d4eda|00000000-0000-0000-0000-000000000000|/a12b77e7-bd0f-4a70-9ba2-19a87ce48819|/a12b77e7-bd0f-4a70-9ba2-19a87ce48819|",
-        "Driven by external connector"
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
