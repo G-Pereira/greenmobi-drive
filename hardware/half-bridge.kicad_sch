@@ -2370,6 +2370,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 175.26 78.74)
@@ -2746,6 +2847,16 @@
 			(type default)
 		)
 		(uuid "61ded429-34c1-4755-ba08-a579d90b0346")
+	)
+	(wire
+		(pts
+			(xy 120.65 78.74) (xy 147.32 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "661a39ed-8414-4c60-84a5-f43a70e81193")
 	)
 	(wire
 		(pts
@@ -3169,16 +3280,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 78.74) (xy 147.32 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebbc3ab6-95dc-440d-8f0d-b163c06f84f4")
-	)
-	(wire
-		(pts
 			(xy 118.11 107.95) (xy 118.11 113.03)
 		)
 		(stroke
@@ -3521,7 +3622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_4x8mm"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
 			(at 180.34 78.74 0)
 			(effects
 				(font
@@ -4516,6 +4617,81 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 129.54 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d851f36-580e-4b4a-8e56-b426f77bbce6")
+		(property "Reference" "#FLG0301"
+			(at 129.54 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 129.54 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0a2ce45-4601-4153-9458-54996e5818e2")
+		)
+		(instances
+			(project "greenmobi-drive"
+				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/4a5d7eb9-ddee-45d4-92b5-174bd9809dbc"
+					(reference "#FLG0501")
+					(unit 1)
+				)
+				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/caef660a-9a2f-49e8-a393-a85edb78ce64"
+					(reference "#FLG0401")
+					(unit 1)
+				)
+				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/cd601179-baef-4e34-b5da-beea03762ae5"
+					(reference "#FLG0301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Current:INA240A2D")
 		(at 135.89 129.54 0)
 		(mirror y)
@@ -4646,7 +4822,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 134.62 88.138 90)
 			(effects
 				(font
@@ -5278,90 +5454,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 124.46 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b9d011d2-1e70-441e-91fe-e0ea50397765")
-		(property "Reference" "R301"
-			(at 124.46 73.406 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 124.46 75.946 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 124.46 80.518 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 124.46 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C137513"
-			(at 124.46 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c568dcb-6b6f-49a5-9ae7-648fa78d3fda")
-		)
-		(pin "2"
-			(uuid "036e7ec1-4240-4b09-8876-73cf7f3218dc")
-		)
-		(instances
-			(project "greenmobi-drive"
-				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/4a5d7eb9-ddee-45d4-92b5-174bd9809dbc"
-					(reference "R501")
-					(unit 1)
-				)
-				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/caef660a-9a2f-49e8-a393-a85edb78ce64"
-					(reference "R401")
-					(unit 1)
-				)
-				(path "/a12b77e7-bd0f-4a70-9ba2-19a87ce48819/cd601179-baef-4e34-b5da-beea03762ae5"
-					(reference "R301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 118.11 107.95 0)
 		(unit 1)
@@ -5460,7 +5552,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 134.62 72.898 90)
 			(effects
 				(font
