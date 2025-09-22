@@ -1354,7 +1354,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:PMEG2010EH"
+		(symbol "Diode:PMEG6010CEH"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1372,7 +1372,7 @@
 					)
 				)
 			)
-			(property "Value" "PMEG2010EH"
+			(property "Value" "PMEG6010CEH"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -1389,7 +1389,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG2010EH_EJ_ET.pdf"
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1398,7 +1398,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "20V, 1A very low Vf MEGA Schottky barrier rectifier, SOD-123F"
+			(property "Description" "60V, 1A very low Vf MEGA Schottky barrier rectifier, SOD-123F"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1425,7 +1425,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "PMEG2010EH_0_1"
+			(symbol "PMEG6010CEH_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
@@ -1463,7 +1463,7 @@
 					)
 				)
 			)
-			(symbol "PMEG2010EH_1_1"
+			(symbol "PMEG6010CEH_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -3622,7 +3622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_4x8mm"
 			(at 180.34 78.74 0)
 			(effects
 				(font
@@ -4814,7 +4814,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "4.7"
 			(at 134.62 83.82 90)
 			(effects
 				(font
@@ -4849,7 +4849,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17415"
+		(property "LCSC" "C25121"
 			(at 134.62 86.36 90)
 			(effects
 				(font
@@ -5291,7 +5291,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:PMEG2010EH")
+		(lib_id "Diode:PMEG6010CEH")
 		(at 102.87 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5308,7 +5308,7 @@
 				)
 			)
 		)
-		(property "Value" "PMEG2010EH"
+		(property "Value" "PMEG6010CEH"
 			(at 103.1875 62.23 0)
 			(effects
 				(font
@@ -5325,7 +5325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG2010EH_EJ_ET.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf"
 			(at 102.87 66.04 0)
 			(effects
 				(font
@@ -5334,7 +5334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20V, 1A very low Vf MEGA Schottky barrier rectifier, SOD-123F"
+		(property "Description" "60V, 1A very low Vf MEGA Schottky barrier rectifier, SOD-123F"
 			(at 102.87 66.04 0)
 			(effects
 				(font
@@ -5343,7 +5343,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C552825"
+		(property "LCSC" "C110797"
 			(at 102.87 66.04 0)
 			(effects
 				(font
@@ -5544,7 +5544,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "4.7"
 			(at 134.62 75.946 90)
 			(effects
 				(font
@@ -5579,7 +5579,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17415"
+		(property "LCSC" "C25121"
 			(at 134.62 71.12 90)
 			(effects
 				(font
