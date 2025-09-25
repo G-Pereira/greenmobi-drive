@@ -224,4 +224,14 @@
 //#define USE_APP_NRF
 //#define USE_APP_LORA
 
+// Setting limits
+#define HW_LIM_CURRENT			-400.0, 400.0
+#define HW_LIM_CURRENT_IN		-400.0, 400.0
+#define HW_LIM_CURRENT_ABS		0.0, 300
+#define HW_LIM_VIN			11.0, 72.0
+#define HW_LIM_ERPM			-200e3, 200e3
+#define HW_LIM_DUTY_MIN			0.0, 0.1
+#define HW_LIM_DUTY_MAX			0.0, 0.99
+#define HW_LIM_TEMP_FET			-40.0, 110.0
+
 #endif /* HW_GREENMOBI_DRIVE_H_ */

@@ -507,6 +507,10 @@
       {
         "netclass": "Power",
         "pattern": "*BAT*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "Net-(Q*01-S)"
       }
     ]
   },
